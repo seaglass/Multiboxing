@@ -8586,6 +8586,14 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
                   <PreCommand>None</PreCommand>
                   <MacroCommands>/script SetView(4); SetView(4);</MacroCommands>
                   <TargetLastTarget>false</TargetLastTarget>
+                  <AllowCustomModifiers>
+                    <LAlt>false</LAlt>
+                    <RAlt>false</RAlt>
+                    <LShift>false</LShift>
+                    <RShift>false</RShift>
+                    <LCtrl>false</LCtrl>
+                    <RCtrl>false</RCtrl>
+                  </AllowCustomModifiers>
                   <UseFTLModifiers>false</UseFTLModifiers>
                 </WoWMacro>
               </MappedKeyAction>
@@ -15622,6 +15630,739 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   </Key>
                 </Combo>
                 <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Max</Name>
+    <Description />
+    <UseFTLModifiers>false</UseFTLModifiers>
+    <Hold>true</Hold>
+    <Mode>OnRelease</Mode>
+    <Mappings>
+      <MappedKey>
+        <Name>Melee IWT Toggle</Name>
+        <Description />
+        <Combo>
+          <Combo>G6</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G6</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>On</Value>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Melee IWT</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Melee IWT Enabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>Off</Value>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Melee IWT</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Melee IWT Disabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>2 Step Toggle</Name>
+        <Description />
+        <Combo>
+          <Combo>G5</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G5</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>Off</Value>
+                <KeyMapString>FTL DPS Keys</KeyMapString>
+                <MappedKeyString>DPS 2</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>On</Value>
+                <KeyMapString>FTL DPS Keys</KeyMapString>
+                <MappedKeyString>2 Step</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>2 Step Enabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>On</Value>
+                <KeyMapString>FTL DPS Keys</KeyMapString>
+                <MappedKeyString>DPS 2</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>Off</Value>
+                <KeyMapString>FTL DPS Keys</KeyMapString>
+                <MappedKeyString>2 Step</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>all</Target>
+                <Text>2 Step Disabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee IWT</Name>
+        <Description>The WoW Quick Start Guide has a section that explains how to set up Interact with Target, which will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
+
+See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Description>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>1</ResetTimer>
+        <ResetType>FromFirstPress</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>Control</KeyMapString>
+                <MappedKeyString>Click to Move On</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>WoW Key Bindings</KeyMapString>
+                <MappedKeyString>INTERACTTARGET</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>Control</KeyMapString>
+                <MappedKeyString>Click to Move Off</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Strafe Left</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Left</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Casters</Target>
+                <Combo>
+                  <Combo>Q</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Q</Key>
+                    <Code>16</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Right</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Casters</Target>
+                <Combo>
+                  <Combo>E</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>E</Key>
+                    <Code>18</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Up</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Up</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Casters</Target>
+                <Combo>
+                  <Combo>Up</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Up</Key>
+                    <Code>328</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Down</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Down</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Casters</Target>
+                <Combo>
+                  <Combo>Down</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Down</Key>
+                    <Code>336</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Strafe Left</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Shift+Left</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Q</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Q</Key>
+                    <Code>16</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Shift+Right</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>E</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>E</Key>
+                    <Code>18</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Up</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Shift+Up</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Up</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Up</Key>
+                    <Code>328</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Down</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Shift+Down</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Down</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Down</Key>
+                    <Code>336</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Strafe Left</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Shift+Left</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Q</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Q</Key>
+                    <Code>16</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Shift+Right</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>E</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>E</Key>
+                    <Code>18</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Up</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Shift+Up</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Up</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Up</Key>
+                    <Code>328</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Down</Name>
+        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
+
+This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Combo>
+          <Combo>Ctrl+Shift+Down</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Down</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Down</Key>
+                    <Code>336</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Toggle Characters</Name>
+        <Description />
+        <Combo>
+          <Combo>G1</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WindowFocusAction">
+                <Window>-next</Window>
+                <Computer />
+                <FilterTarget />
               </MappedKeyAction>
             </Actions>
           </Step>

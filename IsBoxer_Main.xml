@@ -8551,14 +8551,6 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
       <MappedKey>
         <Name>Set Camera</Name>
         <Description>This is an example of a key that assists and performs a WoW Macro, such as /dance. Similar macros can be used for achievements, e.g. /love (critters) and /hug (pvp).</Description>
-        <Combo>
-          <Combo>G4</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G4</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>true</ManualLoad>
         <ResetTimer>0.1</ResetTimer>
@@ -16363,6 +16355,239 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
                 <Window>-next</Window>
                 <Computer />
                 <FilterTarget />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Up Video Feeds</Name>
+        <Description />
+        <Combo>
+          <Combo>G3</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1930</X>
+                    <Y>35</Y>
+                  </Location>
+                  <Size>
+                    <Width>560</Width>
+                    <Height>350</Height>
+                  </Size>
+                  <X>1930</X>
+                  <Y>35</Y>
+                  <Width>560</Width>
+                  <Height>350</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1930</X>
+                    <Y>390</Y>
+                  </Location>
+                  <Size>
+                    <Width>560</Width>
+                    <Height>350</Height>
+                  </Size>
+                  <X>1930</X>
+                  <Y>390</Y>
+                  <Width>560</Width>
+                  <Height>350</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1930</X>
+                    <Y>745</Y>
+                  </Location>
+                  <Size>
+                    <Width>560</Width>
+                    <Height>350</Height>
+                  </Size>
+                  <X>1930</X>
+                  <Y>745</Y>
+                  <Width>560</Width>
+                  <Height>350</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1930</X>
+                    <Y>1100</Y>
+                  </Location>
+                  <Size>
+                    <Width>560</Width>
+                    <Height>350</Height>
+                  </Size>
+                  <X>1930</X>
+                  <Y>1100</Y>
+                  <Width>560</Width>
+                  <Height>350</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
               </MappedKeyAction>
             </Actions>
           </Step>

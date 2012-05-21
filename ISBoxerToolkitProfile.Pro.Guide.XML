@@ -4,214 +4,6 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Team Dethro</Name>
-    <DisableFPSIndicator>false</DisableFPSIndicator>
-    <DisableForceWindowed>false</DisableForceWindowed>
-    <CursorClippingMode>Allow</CursorClippingMode>
-    <GUIToggleCombo>
-      <Combo>Ctrl+Shift+Alt+G</Combo>
-      <Modifiers>Ctrl Shift Alt</Modifiers>
-      <Key>
-        <Key>G</Key>
-        <Code>34</Code>
-      </Key>
-    </GUIToggleCombo>
-    <ConsoleToggleCombo>
-      <Combo>Alt+`</Combo>
-      <Modifiers>Alt</Modifiers>
-      <Key>
-        <Key>`</Key>
-        <Code>41</Code>
-      </Key>
-    </ConsoleToggleCombo>
-    <VideoFXFocusCombo>
-      <Combo>Alt+Mouse1</Combo>
-      <Modifiers>Alt</Modifiers>
-      <Key>
-        <Key>Mouse1</Key>
-        <Code>0</Code>
-      </Key>
-    </VideoFXFocusCombo>
-    <UseConsoleToggleCombo>true</UseConsoleToggleCombo>
-    <LaunchDelay>1</LaunchDelay>
-    <Slots>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Marauderr-Shattered Hand</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+1</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>1</Key>
-            <Code>2</Code>
-          </Key>
-        </SwitchToCombo>
-        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
-        <EffectType>OnFocus</EffectType>
-        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
-        <GenerateFollowMacro>false</GenerateFollowMacro>
-        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
-        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
-        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
-        <FTLModifiers>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
-        </FTLModifiers>
-        <CPUCores>
-          <unsignedInt>1</unsignedInt>
-          <unsignedInt>2</unsignedInt>
-        </CPUCores>
-        <VariableKeystrokeInstances />
-      </Slot>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Dethro-Shattered Hand</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+2</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>2</Key>
-            <Code>3</Code>
-          </Key>
-        </SwitchToCombo>
-        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
-        <EffectType>OnFocus</EffectType>
-        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
-        <GenerateFollowMacro>false</GenerateFollowMacro>
-        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
-        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
-        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
-        <FTLModifiers>
-          <FTLModifierEnum>RShift</FTLModifierEnum>
-        </FTLModifiers>
-        <CPUCores>
-          <unsignedInt>3</unsignedInt>
-          <unsignedInt>4</unsignedInt>
-        </CPUCores>
-        <VariableKeystrokeInstances />
-      </Slot>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Dethroh-Shattered Hand</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+3</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>3</Key>
-            <Code>4</Code>
-          </Key>
-        </SwitchToCombo>
-        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
-        <EffectType>OnFocus</EffectType>
-        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
-        <GenerateFollowMacro>false</GenerateFollowMacro>
-        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
-        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
-        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
-        <FTLModifiers>
-          <FTLModifierEnum>LCtrl</FTLModifierEnum>
-        </FTLModifiers>
-        <CPUCores>
-          <unsignedInt>5</unsignedInt>
-          <unsignedInt>6</unsignedInt>
-        </CPUCores>
-        <VariableKeystrokeInstances />
-      </Slot>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Dethrou-Shattered Hand</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+4</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>4</Key>
-            <Code>5</Code>
-          </Key>
-        </SwitchToCombo>
-        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
-        <EffectType>OnFocus</EffectType>
-        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
-        <GenerateFollowMacro>false</GenerateFollowMacro>
-        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
-        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
-        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
-        <FTLModifiers>
-          <FTLModifierEnum>LAlt</FTLModifierEnum>
-        </FTLModifiers>
-        <CPUCores>
-          <unsignedInt>7</unsignedInt>
-          <unsignedInt>8</unsignedInt>
-        </CPUCores>
-        <VariableKeystrokeInstances />
-      </Slot>
-      <Slot>
-        <ForegroundMaxFPS>60</ForegroundMaxFPS>
-        <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Dethroa-Shattered Hand</CharacterString>
-        <SwitchToCombo>
-          <Combo>Ctrl+Alt+5</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>5</Key>
-            <Code>6</Code>
-          </Key>
-        </SwitchToCombo>
-        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
-        <EffectType>OnFocus</EffectType>
-        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
-        <GenerateFollowMacro>false</GenerateFollowMacro>
-        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
-        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
-        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
-        <FTLModifiers>
-          <FTLModifierEnum>LShift</FTLModifierEnum>
-          <FTLModifierEnum>LCtrl</FTLModifierEnum>
-        </FTLModifiers>
-        <CPUCores>
-          <unsignedInt>3</unsignedInt>
-          <unsignedInt>4</unsignedInt>
-        </CPUCores>
-        <VariableKeystrokeInstances />
-      </Slot>
-    </Slots>
-    <LockForeground>false</LockForeground>
-    <LockWindow>true</LockWindow>
-    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
-    <RepeaterProfile>Default</RepeaterProfile>
-    <KeyMapStrings>
-      <string>General</string>
-      <string>Control</string>
-      <string>FTL DPS Keys</string>
-      <string>Virtual Combat</string>
-      <string>Combat Hotkeys</string>
-    </KeyMapStrings>
-    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
-    <KeyMapWhiteOrBlackList />
-    <ClickBarStrings>
-      <string>Broadcast</string>
-    </ClickBarStrings>
-    <VirtualMappedKeys />
-    <VariableKeystrokeInstances />
-    <WoWMacroSets>
-      <WoWMacroSetLooseRef>
-        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
-      </WoWMacroSetLooseRef>
-      <WoWMacroSetLooseRef>
-        <WoWMacroSetString>General</WoWMacroSetString>
-      </WoWMacroSetLooseRef>
-    </WoWMacroSets>
-    <LaunchCharacterSetStrings />
-    <WindowLayout>
-      <WindowLayoutString>Team Dethro</WindowLayoutString>
-    </WindowLayout>
-  </CharacterSet>
-  <CharacterSet>
-    <ExecuteOnLoad>
-      <RoundRobin>false</RoundRobin>
-    </ExecuteOnLoad>
     <Name>Team2</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
@@ -842,7 +634,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings />
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -851,6 +645,8 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
+    <WoWMacroSets />
+    <VirtualMappedKeys />
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -865,7 +661,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings />
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -890,7 +688,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings />
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -912,7 +712,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings />
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -921,6 +723,8 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
+    <WoWMacroSets />
+    <VirtualMappedKeys />
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -937,6 +741,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Ground AOE</string>
+      <string>Casters</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Arcane Mage</string>
@@ -979,6 +784,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Ground AOE</string>
+      <string>Casters</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Balance Druid</string>
@@ -1059,7 +865,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Holy Paladin</string>
     </KeyMapStrings>
@@ -1101,6 +909,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Ground AOE</string>
+      <string>Casters</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Balance Druid</string>
@@ -1108,7 +917,7 @@
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
-        <Filename>Config-Gosalyn-Shu'halo.WTF</Filename>
+        <Filename>Config-Oswald-Shu'halo.WTF</Filename>
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
@@ -1141,7 +950,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Elemental Shaman</string>
     </KeyMapStrings>
@@ -1181,7 +992,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Elemental Shaman</string>
     </KeyMapStrings>
@@ -1712,6 +1525,14 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
     <Name>Ground AOE</Name>
     <Description />
   </RelayGroup>
+  <RelayGroup>
+    <Name>Casters</Name>
+    <Description />
+  </RelayGroup>
+  <RelayGroup>
+    <Name>Melee</Name>
+    <Description />
+  </RelayGroup>
   <KeyMap>
     <Name>Max</Name>
     <Description />
@@ -1825,9 +1646,7 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
       </MappedKey>
       <MappedKey>
         <Name>Casters Strafe Left</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Left</Combo>
           <Modifiers>Ctrl</Modifiers>
@@ -1850,16 +1669,9 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>Casters</Target>
-                <Combo>
-                  <Combo>Q</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Q</Key>
-                    <Code>16</Code>
-                  </Key>
-                </Combo>
+                <Name>Move Left</Name>
                 <RoundRobin>false</RoundRobin>
               </MappedKeyAction>
             </Actions>
@@ -1891,16 +1703,9 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>Casters</Target>
-                <Combo>
-                  <Combo>E</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>E</Key>
-                    <Code>18</Code>
-                  </Key>
-                </Combo>
+                <Name>Move Right</Name>
                 <RoundRobin>false</RoundRobin>
               </MappedKeyAction>
             </Actions>
@@ -1909,9 +1714,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Casters Up</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Up</Combo>
           <Modifiers>Ctrl</Modifiers>
@@ -1934,16 +1737,9 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>Casters</Target>
-                <Combo>
-                  <Combo>Up</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Up</Key>
-                    <Code>328</Code>
-                  </Key>
-                </Combo>
+                <Name>Move Forward</Name>
                 <RoundRobin>false</RoundRobin>
               </MappedKeyAction>
             </Actions>
@@ -1952,9 +1748,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Casters Down</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Down</Combo>
           <Modifiers>Ctrl</Modifiers>
@@ -1977,16 +1771,9 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>Casters</Target>
-                <Combo>
-                  <Combo>Down</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Down</Key>
-                    <Code>336</Code>
-                  </Key>
-                </Combo>
+                <Name>Move Backward</Name>
                 <RoundRobin>false</RoundRobin>
               </MappedKeyAction>
             </Actions>
@@ -1995,9 +1782,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Melee Strafe Left</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Shift+Left</Combo>
           <Modifiers>Shift</Modifiers>
@@ -2079,9 +1864,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Melee Up</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Shift+Up</Combo>
           <Modifiers>Shift</Modifiers>
@@ -2122,9 +1905,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Melee Down</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Shift+Down</Combo>
           <Modifiers>Shift</Modifiers>
@@ -2165,9 +1946,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Others Strafe Left</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Shift+Left</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -2249,9 +2028,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Others Up</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Shift+Up</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -2292,9 +2069,7 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
       </MappedKey>
       <MappedKey>
         <Name>Others Down</Name>
-        <Description>Generated for movement keys WASD with Q and E for strafe left/right.
-
-This can be used to break auto-follow (WoW does not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Description />
         <Combo>
           <Combo>Ctrl+Shift+Down</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -2334,6 +2109,51 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Face Target</Name>
+        <Description />
+        <Combo>
+          <Combo>G13-G8</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G8</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0.1</Stick>
+            <Stop>false</Stop>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Interact with Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Right</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Toggle Characters</Name>
         <Description />
         <Combo>
@@ -2365,21 +2185,22 @@ This can be used to break auto-follow (WoW does not provide a more convenient me
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>Others turn Left</Name>
-        <Description>Make sure your movement keys are configured under Variable Keystrokes in order to use this!
-
-This can be used to break auto-follow (some games do not provide a more convenient method), just set a Hotkey and, if needed, change the key it sends to the other windows in step 1.</Description>
+        <Name>Star Formation - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
         <Combo>
-          <Combo>G13-G21</Combo>
+          <Combo>G13-G3</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>G13-G21</Key>
+            <Key>G13-G3</Key>
             <Code>0</Code>
           </Key>
         </Combo>
         <Hold>
           <Value>true</Value>
         </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
         <ResetTimer>0</ResetTimer>
@@ -2391,10 +2212,1503 @@ This can be used to break auto-follow (some games do not provide a more convenie
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>all other</Target>
-                <Name>Turn Left</Name>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
                 <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Star Formation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others turn Left - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G21</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G21</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>false</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Left</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Right</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Line Formation - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G2</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G2</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Line Formation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Switch To Tank</Name>
+        <Description>Generated by Mapped Key Wizard with 'Straight Key Broadcast'</Description>
+        <Combo>
+          <Combo>G13-G1</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>false</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WindowFocusAction">
+                <Window />
+                <Computer />
+                <FilterTarget>1</FilterTarget>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Camera</Name>
+        <Description />
+        <Combo>
+          <Combo>G4</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G4</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>all</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+                  <WoWMacroString>SetCamera</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Camera Toggle</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>On</Value>
+                <KeyMapString>General</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Set Camera Enabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>Off</Value>
+                <KeyMapString>General</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Set Camera Disabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Up Video Feeds</Name>
+        <Description />
+        <Combo>
+          <Combo>G3</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>35</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>35</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>418</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>418</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>801</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>801</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1895</X>
+                    <Y>1184</Y>
+                  </Location>
+                  <Size>
+                    <Width>660</Width>
+                    <Height>415</Height>
+                  </Size>
+                  <X>1895</X>
+                  <Y>1184</Y>
+                  <Width>660</Width>
+                  <Height>415</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Up Dungeon Video Feeds</Name>
+        <Description />
+        <Combo>
+          <Combo>G2</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G2</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs2</Name>
+                <Target>2</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs3</Name>
+                <Target>3</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs4</Name>
+                <Target>4</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs5</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>healerbars</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>865</X>
+                    <Y>1100</Y>
+                  </Location>
+                  <Size>
+                    <Width>105</Width>
+                    <Height>220</Height>
+                  </Size>
+                  <X>865</X>
+                  <Y>1100</Y>
+                  <Width>105</Width>
+                  <Height>220</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>healerbarsinfo</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>2285</X>
+                    <Y>1405</Y>
+                  </Location>
+                  <Size>
+                    <Width>190</Width>
+                    <Height>75</Height>
+                  </Size>
+                  <X>2285</X>
+                  <Y>1405</Y>
+                  <Width>190</Width>
+                  <Height>75</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>125</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>125</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>250</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>250</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buffs5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>375</X>
+                    <Y>1200</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>130</Height>
+                  </Size>
+                  <X>375</X>
+                  <Y>1200</Y>
+                  <Width>125</Width>
+                  <Height>130</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>healerbars</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1065</X>
+                    <Y>1100</Y>
+                  </Location>
+                  <Size>
+                    <Width>105</Width>
+                    <Height>220</Height>
+                  </Size>
+                  <X>1065</X>
+                  <Y>1100</Y>
+                  <Width>105</Width>
+                  <Height>220</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>healerbarsinfo</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1065</X>
+                    <Y>1025</Y>
+                  </Location>
+                  <Size>
+                    <Width>190</Width>
+                    <Height>75</Height>
+                  </Size>
+                  <X>1065</X>
+                  <Y>1025</Y>
+                  <Width>190</Width>
+                  <Height>75</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons2</Name>
+                <Target>2</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons3</Name>
+                <Target>3</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons4</Name>
+                <Target>4</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons5</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>125</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>125</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>250</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>250</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>buttons5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>375</X>
+                    <Y>1050</Y>
+                  </Location>
+                  <Size>
+                    <Width>125</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>375</X>
+                  <Y>1050</Y>
+                  <Width>125</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs2</Name>
+                <Target>2</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs3</Name>
+                <Target>3</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs4</Name>
+                <Target>4</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs5</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>healerbars</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>healerbarsinfo</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>135</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>135</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>270</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>270</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buffs5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>405</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>405</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>healerbars</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>405</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>405</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>healerbarsinfo</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>405</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>405</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons2</Name>
+                <Target>2</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons3</Name>
+                <Target>3</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons4</Name>
+                <Target>4</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons5</Name>
+                <Target>5</Target>
+                <IsSource>true</IsSource>
+                <Rect>
+                  <Location>
+                    <X>500</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>125</Height>
+                  </Size>
+                  <X>500</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>125</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>buttons5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>1190</Y>
+                  </Location>
+                  <Size>
+                    <Width>170</Width>
+                    <Height>145</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>1190</Y>
+                  <Width>170</Width>
+                  <Height>145</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -2604,14 +3918,6 @@ If you want a subset (e.g. an Action Target Group) of characters to target you i
         <Description>The WoW Quick Start Guide has a section that explains how to set up Interact with Target, which will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
 
 See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Description>
-        <Combo>
-          <Combo>Alt+J</Combo>
-          <Modifiers>Alt</Modifiers>
-          <Key>
-            <Key>J</Key>
-            <Code>36</Code>
-          </Key>
-        </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
         <ResetTimer>1</ResetTimer>
@@ -4629,6 +5935,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -4834,6 +6141,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -4865,6 +6178,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
@@ -4898,6 +6217,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -4922,6 +6247,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -4945,6 +6276,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
@@ -4978,6 +6315,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -5009,6 +6352,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>true</RoundRobin>
@@ -5042,6 +6391,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>true</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -5074,6 +6429,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>Ground AOE</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -5093,6 +6454,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <Height>0</Height>
                 </VideoOutputSize>
                 <VideoOutputAlpha>-1</VideoOutputAlpha>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>all</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+                  <WoWMacroString>SetCamera</WoWMacroString>
+                </WoWMacro>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -5120,6 +6497,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
@@ -5153,6 +6536,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>Virtual Combat</KeyMapString>
@@ -5184,6 +6573,12 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Assist Me</MappedKeyString>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>all</Target>
                 <RoundRobin>false</RoundRobin>
@@ -6738,7 +8133,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Blizzard</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9231,6 +10643,30 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <TargetLastTarget>false</TargetLastTarget>
         <Name>PreAttack</Name>
         <ColloquialName>UseGloves</ColloquialName>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/script SetView(4); SetView(4);</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>SetCamera</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+`</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>`</Key>
+            <Code>41</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers>
           <LAlt>false</LAlt>
           <RAlt>false</RAlt>
@@ -18910,18 +20346,12 @@ Wrath of Air Totem - Does not stack.</Description>
     <Category>Movement</Category>
     <SubCategory />
     <Description>Most MMORPGs include an Auto-Follow feature, which is useful to move your characters together as a group.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Assist Target</Name>
     <Category>Targeting</Category>
     <SubCategory />
     <Description>Causes the character to select his target's target, such as to assist in combat against the same enemy. Most games include this feature.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Target Self</Name>
@@ -18942,18 +20372,12 @@ Wrath of Air Totem - Does not stack.</Description>
     <Category>Targeting</Category>
     <SubCategory>Per-slot targeting</SubCategory>
     <Description>This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 1, in the game. This is useful for being able to easily Auto-Follow or Assist each window.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Target Slot 2</Name>
     <Category>Targeting</Category>
     <SubCategory>Per-slot targeting</SubCategory>
     <Description>This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 2, in the game. This is useful for being able to easily Auto-Follow or Assist each window.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Target Slot 3</Name>
@@ -18987,15 +20411,20 @@ Wrath of Air Totem - Does not stack.</Description>
     <Category>Targeting</Category>
     <SubCategory>Per-slot targeting</SubCategory>
     <Description>This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 6, in the game. This is useful for being able to easily Auto-Follow or Assist each window.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Interact with Target</Name>
     <Category>Targeting</Category>
     <SubCategory />
     <Description>While most MMORPGs require actually clicking with the mouse to perform the default 'right click' action, others including World of Warcraft provide a configurable Hotkey for the same capability.</Description>
+    <DefaultValue>
+      <Combo>J</Combo>
+      <Modifiers>None</Modifiers>
+      <Key>
+        <Key>J</Key>
+        <Code>36</Code>
+      </Key>
+    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Focus my Target</Name>

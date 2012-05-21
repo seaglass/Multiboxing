@@ -199,6 +199,9 @@
       <WoWMacroSetLooseRef>
         <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
       </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
     </WoWMacroSets>
     <LaunchCharacterSetStrings />
     <WindowLayout>
@@ -394,6 +397,9 @@
       <WoWMacroSetLooseRef>
         <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
       </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
     </WoWMacroSets>
     <LaunchCharacterSetStrings />
     <WindowLayout>
@@ -458,7 +464,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Aeryth-Shu'halo</CharacterString>
+        <CharacterString>Disneymax-Shu'halo</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -486,7 +492,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Disneymax-Shu'halo</CharacterString>
+        <CharacterString>Aeryth-Shu'halo</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+3</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -599,6 +605,207 @@
     <LaunchCharacterSetStrings />
     <WindowLayout>
       <WindowLayoutString>Team GoMe</WindowLayoutString>
+    </WindowLayout>
+  </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Team SuperTramp</Name>
+    <DisableFPSIndicator>false</DisableFPSIndicator>
+    <DisableForceWindowed>false</DisableForceWindowed>
+    <CursorClippingMode>Allow</CursorClippingMode>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <VideoFXFocusCombo>
+      <Combo>Alt+Mouse1</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>Mouse1</Key>
+        <Code>0</Code>
+      </Key>
+    </VideoFXFocusCombo>
+    <UseConsoleToggleCombo>false</UseConsoleToggleCombo>
+    <LaunchDelay>1</LaunchDelay>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Disneymax-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+1</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Jaimelyn-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+2</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Shapluto-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+3</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Shadonald-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+4</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Beezle-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+5</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>9</unsignedInt>
+          <unsignedInt>10</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <LockWindow>true</LockWindow>
+    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>General</string>
+      <string>Control</string>
+      <string>FTL DPS Keys</string>
+      <string>Combat Hotkeys</string>
+      <string>Virtual Combat</string>
+      <string>Max</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings>
+      <string>Broadcast</string>
+    </ClickBarStrings>
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <LaunchCharacterSetStrings />
+    <WindowLayout>
+      <WindowLayoutString>Team SuperTramp</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
   <Character>
@@ -884,10 +1091,10 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Gosalyn-Shu'halo</Name>
+    <Name>Oswald-Shu'halo</Name>
     <AccountName>max@maxschilling.com</AccountName>
-    <SubAccountName>SCHILM</SubAccountName>
-    <ActualName>Gosalyn</ActualName>
+    <SubAccountName>868495#1</SubAccountName>
+    <ActualName>Oswald</ActualName>
     <Game>World of Warcraft</Game>
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
@@ -926,30 +1133,28 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Oswald-Shu'halo</Name>
+    <Name>Shapluto-Shu'halo</Name>
     <AccountName>max@maxschilling.com</AccountName>
-    <SubAccountName>868495#1</SubAccountName>
-    <ActualName>Oswald</ActualName>
+    <SubAccountName>868495#5</SubAccountName>
+    <ActualName>Shapluto</ActualName>
     <Game>World of Warcraft</Game>
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings>
-      <string>Ground AOE</string>
-    </RelayGroupStrings>
+    <RelayGroupStrings />
     <KeyMapStrings>
-      <string>Balance Druid</string>
+      <string>Elemental Shaman</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
-        <Filename>Config-Gosalyn-Shu'halo.WTF</Filename>
+        <Filename>Config-Shapluto-Shu'halo.WTF</Filename>
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
     <WoWMacroSets>
       <WoWMacroSetLooseRef>
-        <WoWMacroSetString>Druid</WoWMacroSetString>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
     <VirtualMappedKeys>
@@ -958,7 +1163,47 @@
           <KeyMapString>Virtual Combat</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Balance Druid</KeyMapString>
+          <KeyMapString>Elemental Shaman</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Shadonald-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>868495#2</SubAccountName>
+    <ActualName>Shadonald</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings>
+      <string>Elemental Shaman</string>
+    </KeyMapStrings>
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Shadonald-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Elemental Shaman</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1247,6 +1492,127 @@
     <InstantSwap>true</InstantSwap>
     <SwapMode>Never</SwapMode>
     <FocusClickMode>ApplicationDefined</FocusClickMode>
+    <RolloverStyle>
+      <Enabled>false</Enabled>
+      <Scale>1.5</Scale>
+      <Rollup>false</Rollup>
+      <Frames>10</Frames>
+    </RolloverStyle>
+    <Regions>
+      <Region>
+        <CharacterSetSlot>1</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>2</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>3</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>4</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>5</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+    </Regions>
+    <SwapGroups>
+      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="0" />
+    </SwapGroups>
+  </WindowLayout>
+  <WindowLayout>
+    <UserScreenSet>
+      <AllScreens>
+        <UserScreen>
+          <Bounds>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1600</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1560</Height>
+          </WorkingArea>
+          <Primary>true</Primary>
+          <DeviceName>\\.\DISPLAY1</DeviceName>
+        </UserScreen>
+        <UserScreen>
+          <Bounds>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </WorkingArea>
+          <Primary>false</Primary>
+          <DeviceName>\\.\DISPLAY2</DeviceName>
+        </UserScreen>
+      </AllScreens>
+      <Name>&lt;Current Screen Layout&gt;</Name>
+    </UserScreenSet>
+    <Name>Team SuperTramp</Name>
+    <Description>This Window Layout features stacked windows with no border, the size of the full screen, on \\.\DISPLAY1. Swapping disabled. Does not leave space for the Windows taskbar. This style is great in conjunction with Video FX to see parts of, or all of, the other windows.</Description>
+    <FocusFollowsMouse>false</FocusFollowsMouse>
+    <InstantSwap>true</InstantSwap>
+    <SwapMode>Never</SwapMode>
+    <FocusClickMode>ApplicationDefined</FocusClickMode>
     <Regions>
       <Region>
         <CharacterSetSlot>1</CharacterSetSlot>
@@ -1404,79 +1770,6 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="PopupTextAction">
                 <Target>self</Target>
                 <Text>Melee IWT Disabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>2 Step Toggle</Name>
-        <Description />
-        <Combo>
-          <Combo>G5</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G5</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>Off</Value>
-                <KeyMapString>FTL DPS Keys</KeyMapString>
-                <MappedKeyString>DPS 2</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>On</Value>
-                <KeyMapString>FTL DPS Keys</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>2 Step Enabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>On</Value>
-                <KeyMapString>FTL DPS Keys</KeyMapString>
-                <MappedKeyString>DPS 2</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>Off</Value>
-                <KeyMapString>FTL DPS Keys</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>all</Target>
-                <Text>2 Step Disabled</Text>
                 <DurationMS>500</DurationMS>
                 <FadeDurationMS>500</FadeDurationMS>
                 <Red>255</Red>
@@ -4324,13 +4617,29 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>AOE DPS Rotation</Name>
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>true</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
         <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
+        <Mode>Default</Mode>
         <Steps>
           <Step>
             <Stick>0</Stick>
@@ -4535,13 +4844,53 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <Combo>
+          <Combo>G13-G14</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G14</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>all</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>Virtual Combat</KeyMapString>
+                <MappedKeyString>DPS Occasional</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>AOE DPS Rotation</Name>
         <Description />
+        <Combo>
+          <Combo>G13-G9</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G9</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>true</ManualLoad>
+        <ManualLoad>false</ManualLoad>
         <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
+        <Mode>Default</Mode>
         <Steps>
           <Step>
             <Stick>0</Stick>
@@ -4642,11 +4991,11 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>Interrupt</Name>
         <Description />
         <Combo>
-          <Combo>Num 3</Combo>
+          <Combo>G13-G5</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>Num 3</Key>
-            <Code>81</Code>
+            <Key>G13-G5</Key>
+            <Code>0</Code>
           </Key>
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
@@ -4674,11 +5023,11 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>Stun</Name>
         <Description />
         <Combo>
-          <Combo>Num 6</Combo>
+          <Combo>G13-G6</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>Num 6</Key>
-            <Code>77</Code>
+            <Key>G13-G6</Key>
+            <Code>0</Code>
           </Key>
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
@@ -4706,11 +5055,11 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>Ground AOE</Name>
         <Description />
         <Combo>
-          <Combo>Num 5</Combo>
+          <Combo>G13-G4</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>Num 5</Key>
-            <Code>76</Code>
+            <Key>G13-G4</Key>
+            <Code>0</Code>
           </Key>
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
@@ -4753,11 +5102,11 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>Cooldowns</Name>
         <Description />
         <Combo>
-          <Combo>Num 7</Combo>
+          <Combo>G13-G13</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>Num 7</Key>
-            <Code>71</Code>
+            <Key>G13-G13</Key>
+            <Code>0</Code>
           </Key>
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
@@ -4785,11 +5134,11 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>Panic</Name>
         <Description />
         <Combo>
-          <Combo>Num -</Combo>
+          <Combo>G13-G7</Combo>
           <Modifiers>None</Modifiers>
           <Key>
-            <Key>Num -</Key>
-            <Code>74</Code>
+            <Key>G13-G7</Key>
+            <Code>0</Code>
           </Key>
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
@@ -5881,7 +6230,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Use Trinket</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6454,6 +6820,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Invisibility</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Use Trinket</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -6560,10 +6942,698 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Mode>OnRelease</Mode>
         <Steps>
           <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0.5</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Moonfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Insect Swarm</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6571,16 +7641,33 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Name>AOE DPS Rotation</Name>
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>true</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
         <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
+        <Mode>Default</Mode>
         <Steps>
           <Step>
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Typhoon</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6631,7 +7718,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Starsurge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Faerie Fire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6665,7 +7785,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Entangling Roots</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6680,9 +7817,49 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Steps>
           <Step>
             <Stick>0</Stick>
-            <Stop>false</Stop>
+            <Stop>true</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Force of Nature</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>true</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Hurricane</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6699,7 +7876,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Use Trinket</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6708,7 +7902,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
+        <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>OnRelease</Mode>
         <Steps>
@@ -6716,7 +7910,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Healing Potion</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Barkskin</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6733,7 +7960,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Thorns slot2</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Moonkin Form</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6756,10 +8016,42 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Mode>OnRelease</Mode>
         <Steps>
           <Step>
-            <Stick>0</Stick>
+            <Stick>0.3</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Judgement</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Hammer of the Righteous</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -6808,6 +8100,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Hammer of the Righteous</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Crusader Strike</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -6825,7 +8133,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Holy Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6893,7 +8218,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Avenger's Shield</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -6958,7 +8300,57 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Avenger's Shield</WoWMacroString>
+                  <WoWMacroString>Consecration</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Use Trinket</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Panic</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Divine Shield</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -6974,7 +8366,402 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Holy Wrath</WoWMacroString>
+                  <WoWMacroString>Guardian of Ancient Kings</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Avenger's Shield</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Elemental Shaman</Name>
+    <Description />
+    <UseFTLModifiers>false</UseFTLModifiers>
+    <Hold>false</Hold>
+    <Mode>OnRelease</Mode>
+    <Mappings>
+      <MappedKey>
+        <Name>DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Lightning Bolt</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Call of the Elements</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Earthquake</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Chain Lightning</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Activate Proc</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Flame Shock</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Lava Burst</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Elemental Mastery</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Wind Shear</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Ground AOE</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Cooldowns</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Searing Totem</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Earth Shock</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Shaman</WoWMacroSetString>
+                  <WoWMacroString>Thunderstorm</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -7011,24 +8798,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Avenger's Shield</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -13250,11 +15020,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
-/console Sound_EnableSFX 0
+        <MacroCommands>/click ErrorsOFF
+
 /cast Divine Shield
-/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE");
-/console Sound_EnableSFX 1</MacroCommands>
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Divine Shield</ColloquialName>
         <Combo>
@@ -13590,14 +15360,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
-/console Sound_EnableSFX 0
+        <MacroCommands>/click ErrorsOFF
 /cast [@focus,help,nodead] Holy Shock
 /cast [@targettarget,help,nodead] Holy Shock
 /cast [target={SLOT2},help,nodead] Holy Shock
 /cast Holy Shock
-/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE");
-/console Sound_EnableSFX 1</MacroCommands>
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Holy Shock</ColloquialName>
         <Combo>
@@ -15022,7 +16790,8 @@ Wrath of Air Totem - Does not stack.</Description>
     <WoWMacros>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
+        <MacroCommands>/stopmacro [channeling]
+/click ErrorsOFF
 
 /cast Barkskin
 
@@ -15079,7 +16848,8 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Entangling Roots
@@ -15137,7 +16907,8 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Forces of Nature
@@ -15166,14 +16937,13 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
+        <MacroCommands>/click ErrorsOFF
 
-/cast Hibernate
+/cast Healing Touch
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Hibernate</ColloquialName>
+        <ColloquialName>Healing Touch</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+Y</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -15198,17 +16968,47 @@ Wrath of Air Totem - Does not stack.</Description>
         <MacroCommands>/click PreAttack
 /click ErrorsOFF
 
-/cast Hurricane
+/cast Hibernate
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Hurricane</ColloquialName>
+        <ColloquialName>Hibernate</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+U</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>U</Key>
             <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Hurricane
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Hurricane</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15232,64 +17032,6 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Innervate</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Y</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
-
-/cast Insect Swarm
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Insect Swarm</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+O</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>O</Key>
-            <Code>24</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
-
-/cast Moonfire
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Moonfire</ColloquialName>
-        <Combo>
           <Combo>Ctrl+Shift+Alt+P</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
@@ -15310,41 +17052,15 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
 
-/cast Moonfury
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Moonfury</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+U</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>U</Key>
-            <Code>22</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast [noform] Moonkin Form
+/cast Insect Swarm
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Moonkin Form</ColloquialName>
+        <ColloquialName>Insect Swarm</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+[</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -15368,11 +17084,267 @@ Wrath of Air Totem - Does not stack.</Description>
         <PreCommand>None</PreCommand>
         <MacroCommands>/click ErrorsOFF
 
+/cast Lifebloom
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lifebloom</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Mark of the Wild
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mark of the Wild</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+;</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Moonfire
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Moonfire</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+'</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click ErrorsOFF
+
+/cast Moonfury
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Moonfury</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast [noform] Moonkin Form
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Moonkin Form</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click ErrorsOFF
+
 /cast Nature's Grasp
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Nature's Grasp</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+E</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Nourish
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Nourish</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Regrowth
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Regrowth</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Rejuvenation
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Rejuvenation</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+U</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Remove Corruptions
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Remove Corruptions</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+I</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -15394,7 +17366,36 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/click ErrorsOFF
+
+/cast Revive
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Revive</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+O</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Solar Beam
@@ -15403,11 +17404,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Solar Beam</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+\</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>\</Key>
-            <Code>43</Code>
+            <Key>P</Key>
+            <Code>25</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15432,11 +17433,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Soothe</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+Q</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>Q</Key>
-            <Code>16</Code>
+            <Key>[</Key>
+            <Code>26</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15452,7 +17453,8 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Starfall
@@ -15461,11 +17463,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Starfall</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+W</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>W</Key>
-            <Code>17</Code>
+            <Key>\</Key>
+            <Code>43</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15481,7 +17483,8 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Starfire
@@ -15490,11 +17493,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Starfire</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+E</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+;</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>E</Key>
-            <Code>18</Code>
+            <Key>;</Key>
+            <Code>39</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15510,7 +17513,8 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
 /click ErrorsOFF
 
 /cast Starsurge
@@ -15519,11 +17523,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Starsurge</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+R</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>R</Key>
-            <Code>19</Code>
+            <Key>'</Key>
+            <Code>40</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15547,262 +17551,8 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Thorns</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+T</Combo>
+          <Combo>Shift+Alt+Q</Combo>
           <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>T</Key>
-            <Code>20</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
-
-/cast Typhoon
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Typhoon</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+Y</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Wild Mushrooms
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Wild Mushrooms</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+U</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>U</Key>
-            <Code>22</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Wild Mushrooms: Detonate
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Wild Mushrooms Detonate</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+I</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>I</Key>
-            <Code>23</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
-
-/cast Wrath
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Wrath</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+O</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>O</Key>
-            <Code>24</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Healing Touch
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Healing Touch</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+P</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>P</Key>
-            <Code>25</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Lifebloom
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Lifebloom</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+[</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>[</Key>
-            <Code>26</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Mark of the Wild
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mark of the Wild</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+P</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>P</Key>
-            <Code>25</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Nourish
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Nourish</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+\</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>\</Key>
-            <Code>43</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Regrowth
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Regrowth</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Q</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
             <Key>Q</Key>
             <Code>16</Code>
@@ -15822,74 +17572,16 @@ Wrath of Air Totem - Does not stack.</Description>
       <WoWMacro>
         <PreCommand>None</PreCommand>
         <MacroCommands>/click ErrorsOFF
-
-/cast Rejuvenation
-
+/cast [target={SLOT2},help,nodead] Thorns
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Rejuvenation</ColloquialName>
+        <ColloquialName>Thorns slot2</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+W</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
+          <Combo>Shift+Alt+W</Combo>
+          <Modifiers>Shift Alt</Modifiers>
           <Key>
             <Key>W</Key>
             <Code>17</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Remove Corruptions
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Remove Corruptions</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+E</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>E</Key>
-            <Code>18</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Revive
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Revive</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+R</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>R</Key>
-            <Code>19</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -15913,11 +17605,127 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Tranquility</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+T</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
+          <Combo>Shift+Alt+E</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Typhoon
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Typhoon</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+R</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Wild Mushrooms
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Wild Mushrooms</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+T</Combo>
+          <Modifiers>Shift Alt</Modifiers>
           <Key>
             <Key>T</Key>
             <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Wild Mushrooms: Detonate
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Wild Mushrooms Detonate</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Y</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Wrath
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Wrath</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+I</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>I</Key>
+            <Code>23</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -16022,6 +17830,968 @@ Wrath of Air Totem - Does not stack.</Description>
           <Key>
             <Key>=</Key>
             <Code>13</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+    </WoWMacros>
+  </WoWMacroSet>
+  <WoWMacroSet>
+    <Name>Shaman</Name>
+    <Description />
+    <WoWMacros>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Ancestral Spirit
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Ancestral Spirit</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Q</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Bind Elemental
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Bind Elemental</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+W</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Call of the Elements
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Call of the Elements</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+E</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Chain Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chain Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+R</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Chain Lightning
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chain Lightning</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+T</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Cleanse Spirit
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Cleanse Spirit</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Earth Shock
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Earth Shock</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+U</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Earthquake
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Earthquake</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Elemental Mastery
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Elemental Mastery</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+P</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Fire Nova
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Fire Nova</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+[</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Flame Shock
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Flame Shock</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Frost Shock
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Frost Shock</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+;</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Greater Healing Wave
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Greater Healing Wave</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+'</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Healing Rain
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Healing Rain</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Healing Surge
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Healing Surge</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Healing Wave
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Healing Wave</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+E</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Heroism
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heroism</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Hex
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Hex</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Lava Burst
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lava Burst</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Y</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Lightning Bolt
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lightning Bolt</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+U</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Lightning Shield
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lightning Shield</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+O</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Purge
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Purge</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Searing Totem
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Searing Totem</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+U</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Spiritwalker's Grace
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Spiritwalker's Grace</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Thunderstorm
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Thunderstorm</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Totemic Recall
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Totemic Recall</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+;</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Wind Shear
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Wind Shear</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Primal Strike
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Primal Strike</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Q</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Reincarnation
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Reincarnation</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+W</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+/click ErrorsOFF
+
+/cast Unleash Elements
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Unleash Elements</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+E</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Water Breathing
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Water Breathing</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+R</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Water Shield
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Water Shield</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+T</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Water Walking
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Water Walking</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Y</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -16226,18 +18996,12 @@ Wrath of Air Totem - Does not stack.</Description>
     <Category>Targeting</Category>
     <SubCategory />
     <Description>While most MMORPGs require actually clicking with the mouse to perform the default 'right click' action, others including World of Warcraft provide a configurable Hotkey for the same capability.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Focus my Target</Name>
     <Category>Targeting</Category>
     <SubCategory />
     <Description>Focus is a secondary target available in some games, to remain 'focused' on a target while still being able to click or otherwise select others.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <ClickBar>
     <Name>Broadcast</Name>

@@ -177,6 +177,9 @@
       <string>General</string>
       <string>Control</string>
       <string>FTL DPS Keys</string>
+      <string>Max</string>
+      <string>Virtual Combat</string>
+      <string>Combat Hotkeys</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
@@ -621,11 +624,27 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
-    <VirtualMappedKeys />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Warrior</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Prot Warrior</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
     <Name>Shagoofy-Shu'halo</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>SCHILM</SubAccountName>
@@ -645,8 +664,21 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
-    <VirtualMappedKeys />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Shaman</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Elemental Shaman</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -672,8 +704,21 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
-    <VirtualMappedKeys />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Mage</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Arcane Mage</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -699,11 +744,27 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
-    <VirtualMappedKeys />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Mage</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Arcane Mage</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
     <Name>Wallybfeed-Shu'halo</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#7</SubAccountName>
@@ -723,8 +784,21 @@
         <VirtualFileString>Config.WTF</VirtualFileString>
       </VirtualFileTarget>
     </VirtualFileTargets>
-    <WoWMacroSets />
-    <VirtualMappedKeys />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Mage</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Arcane Mage</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -6012,7 +6086,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
+        <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>OnRelease</Mode>
         <Steps>
@@ -6381,7 +6455,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
+        <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>OnRelease</Mode>
         <Steps>
@@ -10177,6 +10251,219 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Panic</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Prot Warrior</Name>
+    <Description />
+    <UseFTLModifiers>false</UseFTLModifiers>
+    <Hold>false</Hold>
+    <Mode>OnRelease</Mode>
+    <Mappings>
+      <MappedKey>
+        <Name>DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Activate Proc</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Ground AOE</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Cooldowns</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -20242,6 +20529,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <Description />
       </WoWMacro>
     </WoWMacros>
+  </WoWMacroSet>
+  <WoWMacroSet>
+    <Name>Warrior</Name>
+    <Description />
+    <WoWMacros />
   </WoWMacroSet>
   <VariableKeystroke>
     <Name>Move Forward</Name>

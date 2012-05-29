@@ -58,7 +58,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Shagoofy-Shu'halo</CharacterString>
+        <CharacterString>Wallybfeed-Shu'halo</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -142,7 +142,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Wallybfeed-Shu'halo</CharacterString>
+        <CharacterString>Shagoofy-Shu'halo</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+5</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -177,9 +177,9 @@
       <string>General</string>
       <string>Control</string>
       <string>FTL DPS Keys</string>
-      <string>Max</string>
       <string>Virtual Combat</string>
       <string>Combat Hotkeys</string>
+      <string>Max</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
@@ -603,6 +603,207 @@
       <WindowLayoutString>Team SuperTramp</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>WarriorPriestsAndMages</Name>
+    <DisableFPSIndicator>false</DisableFPSIndicator>
+    <DisableForceWindowed>false</DisableForceWindowed>
+    <CursorClippingMode>Allow</CursorClippingMode>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <VideoFXFocusCombo>
+      <Combo>Alt+Mouse1</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>Mouse1</Key>
+        <Code>0</Code>
+      </Key>
+    </VideoFXFocusCombo>
+    <UseConsoleToggleCombo>false</UseConsoleToggleCombo>
+    <LaunchDelay>1</LaunchDelay>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Axelfoley-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+1</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Bigwhoop-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+2</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Wallybfeed-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+3</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Vinniemorris-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+4</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Frankbelson-Shu'halo</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+5</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>9</unsignedInt>
+          <unsignedInt>10</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <LockWindow>true</LockWindow>
+    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>General</string>
+      <string>Control</string>
+      <string>FTL DPS Keys</string>
+      <string>Combat Hotkeys</string>
+      <string>Virtual Combat</string>
+      <string>Max</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings>
+      <string>Broadcast</string>
+    </ClickBarStrings>
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <LaunchCharacterSetStrings />
+    <WindowLayout>
+      <WindowLayoutString>WarriorPriestsAndMages</WindowLayoutString>
+    </WindowLayout>
+  </CharacterSet>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -616,7 +817,9 @@
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings />
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Prot Warrior</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -669,16 +872,7 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Elemental Shaman</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-    </VirtualMappedKeys>
+    <VirtualMappedKeys />
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -695,8 +889,11 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Casters</string>
+      <string>Ground AOE</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Arcane Mage</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -735,8 +932,11 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Casters</string>
+      <string>Ground AOE</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Arcane Mage</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -775,8 +975,11 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Casters</string>
+      <string>Ground AOE</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Arcane Mage</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -1091,6 +1294,90 @@
         </FromMappedKey>
         <ToMappedKey>
           <KeyMapString>Elemental Shaman</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Vinniemorris-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>SCHILM</SubAccountName>
+    <ActualName>Vinniemorris</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
+    <KeyMapStrings>
+      <string>Shadow Priest</string>
+    </KeyMapStrings>
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Vinniemorris-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Priest</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shadow Priest</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Frankbelson-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>868495#5</SubAccountName>
+    <ActualName>Frankbelson</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
+    <KeyMapStrings>
+      <string>Holy Priest</string>
+    </KeyMapStrings>
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Frankbelson-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Priest</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Holy Priest</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1571,6 +1858,121 @@
       <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="0" />
     </SwapGroups>
   </WindowLayout>
+  <WindowLayout>
+    <UserScreenSet>
+      <AllScreens>
+        <UserScreen>
+          <Bounds>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1600</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1560</Height>
+          </WorkingArea>
+          <Primary>true</Primary>
+          <DeviceName>\\.\DISPLAY1</DeviceName>
+        </UserScreen>
+        <UserScreen>
+          <Bounds>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </WorkingArea>
+          <Primary>false</Primary>
+          <DeviceName>\\.\DISPLAY2</DeviceName>
+        </UserScreen>
+      </AllScreens>
+      <Name>&lt;Current Screen Layout&gt;</Name>
+    </UserScreenSet>
+    <Name>WarriorPriestsAndMages</Name>
+    <Description>This Window Layout features stacked windows with no border, the size of the full screen, on \\.\DISPLAY1. Swapping disabled. Does not leave space for the Windows taskbar. This style is great in conjunction with Video FX to see parts of, or all of, the other windows.</Description>
+    <FocusFollowsMouse>false</FocusFollowsMouse>
+    <InstantSwap>true</InstantSwap>
+    <SwapMode>Never</SwapMode>
+    <FocusClickMode>ApplicationDefined</FocusClickMode>
+    <Regions>
+      <Region>
+        <CharacterSetSlot>1</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>2</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>3</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>4</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>5</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+    </Regions>
+    <SwapGroups>
+      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="0" />
+    </SwapGroups>
+  </WindowLayout>
   <RepeaterProfile>
     <Name>Default</Name>
     <Description>It is not recommended to change the Startup defaults of the generated Repeater Profile, or to set Hotkeys in it. For best results, assign a hotkey through the Control Key Map instead.
@@ -1615,619 +2017,6 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
     <Mode>OnRelease</Mode>
     <Mappings>
       <MappedKey>
-        <Name>Melee IWT Toggle</Name>
-        <Description />
-        <Combo>
-          <Combo>G6</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G6</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>On</Value>
-                <KeyMapString>General</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>self</Target>
-                <Text>Melee IWT Enabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>Off</Value>
-                <KeyMapString>General</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>self</Target>
-                <Text>Melee IWT Disabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Melee IWT</Name>
-        <Description>The WoW Quick Start Guide has a section that explains how to set up Interact with Target, which will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
-
-See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Description>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>true</ManualLoad>
-        <ResetTimer>1</ResetTimer>
-        <ResetType>FromFirstPress</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>Control</KeyMapString>
-                <MappedKeyString>Click to Move On</MappedKeyString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>Control</KeyMapString>
-                <MappedKeyString>Click to Move Off</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Casters Strafe Left</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Left</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>Left</Key>
-            <Code>331</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Casters</Target>
-                <Name>Move Left</Name>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Casters Strafe Right</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Right</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>Right</Key>
-            <Code>333</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Casters</Target>
-                <Name>Move Right</Name>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Casters Up</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Up</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>Up</Key>
-            <Code>328</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Casters</Target>
-                <Name>Move Forward</Name>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Casters Down</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Down</Combo>
-          <Modifiers>Ctrl</Modifiers>
-          <Key>
-            <Key>Down</Key>
-            <Code>336</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VariableKeystrokeAction">
-                <Target>Casters</Target>
-                <Name>Move Backward</Name>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Melee Strafe Left</Name>
-        <Description />
-        <Combo>
-          <Combo>Shift+Left</Combo>
-          <Modifiers>Shift</Modifiers>
-          <Key>
-            <Key>Left</Key>
-            <Code>331</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>Melee</Target>
-                <Combo>
-                  <Combo>Q</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Q</Key>
-                    <Code>16</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Melee Strafe Right</Name>
-        <Description />
-        <Combo>
-          <Combo>Shift+Right</Combo>
-          <Modifiers>Shift</Modifiers>
-          <Key>
-            <Key>Right</Key>
-            <Code>333</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>Melee</Target>
-                <Combo>
-                  <Combo>E</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>E</Key>
-                    <Code>18</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Melee Up</Name>
-        <Description />
-        <Combo>
-          <Combo>Shift+Up</Combo>
-          <Modifiers>Shift</Modifiers>
-          <Key>
-            <Key>Up</Key>
-            <Code>328</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>Melee</Target>
-                <Combo>
-                  <Combo>Up</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Up</Key>
-                    <Code>328</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Melee Down</Name>
-        <Description />
-        <Combo>
-          <Combo>Shift+Down</Combo>
-          <Modifiers>Shift</Modifiers>
-          <Key>
-            <Key>Down</Key>
-            <Code>336</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>Melee</Target>
-                <Combo>
-                  <Combo>Down</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Down</Key>
-                    <Code>336</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Others Strafe Left</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Shift+Left</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Left</Key>
-            <Code>331</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>all other</Target>
-                <Combo>
-                  <Combo>Q</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Q</Key>
-                    <Code>16</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Others Strafe Right</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Shift+Right</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Right</Key>
-            <Code>333</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>all other</Target>
-                <Combo>
-                  <Combo>E</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>E</Key>
-                    <Code>18</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Others Up</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Shift+Up</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Up</Key>
-            <Code>328</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>all other</Target>
-                <Combo>
-                  <Combo>Up</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Up</Key>
-                    <Code>328</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Others Down</Name>
-        <Description />
-        <Combo>
-          <Combo>Ctrl+Shift+Down</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Down</Key>
-            <Code>336</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="Keystroke">
-                <Target>all other</Target>
-                <Combo>
-                  <Combo>Down</Combo>
-                  <Modifiers>None</Modifiers>
-                  <Key>
-                    <Key>Down</Key>
-                    <Code>336</Code>
-                  </Key>
-                </Combo>
-                <RoundRobin>false</RoundRobin>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Face Target</Name>
-        <Description />
-        <Combo>
-          <Combo>G13-G8</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G13-G8</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0.1</Stick>
-            <Stop>false</Stop>
-            <Stump>true</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Interact with Target</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Others turn Right</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
         <Name>Toggle Characters</Name>
         <Description />
         <Combo>
@@ -2253,503 +2042,6 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
                 <Window>-next</Window>
                 <Computer />
                 <FilterTarget />
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Star Formation - Alternate</Name>
-        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
-        <Combo>
-          <Combo>G13-G3</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G13-G3</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <UseFTLModifiers>
-          <Value>false</Value>
-        </UseFTLModifiers>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Star Formation</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Others turn Left - Alternate</Name>
-        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
-        <Combo>
-          <Combo>G13-G21</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G13-G21</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>false</Value>
-        </Hold>
-        <UseFTLModifiers>
-          <Value>false</Value>
-        </UseFTLModifiers>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnPressAndRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Others turn Left</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Others turn Right</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Line Formation - Alternate</Name>
-        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
-        <Combo>
-          <Combo>G13-G2</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G13-G2</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>true</Value>
-        </Hold>
-        <UseFTLModifiers>
-          <Value>false</Value>
-        </UseFTLModifiers>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>self</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-                <MappedKeyString>Line Formation</MappedKeyString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Switch To Tank</Name>
-        <Description>Generated by Mapped Key Wizard with 'Straight Key Broadcast'</Description>
-        <Combo>
-          <Combo>G13-G1</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G13-G1</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <Hold>
-          <Value>false</Value>
-        </Hold>
-        <UseFTLModifiers>
-          <Value>false</Value>
-        </UseFTLModifiers>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WindowFocusAction">
-                <Window />
-                <Computer />
-                <FilterTarget>1</FilterTarget>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Set Camera</Name>
-        <Description />
-        <Combo>
-          <Combo>G4</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G4</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>all</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
-                  <WoWMacroString>SetCamera</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Set Camera Toggle</Name>
-        <Description />
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>On</Value>
-                <KeyMapString>General</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>self</Target>
-                <Text>Set Camera Enabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
-                <Target>all</Target>
-                <RoundRobin>false</RoundRobin>
-                <KeyMapString>General</KeyMapString>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="MappedKeyStateAction">
-                <Target>all</Target>
-                <Value>Off</Value>
-                <KeyMapString>General</KeyMapString>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>self</Target>
-                <Text>Set Camera Disabled</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
-      </MappedKey>
-      <MappedKey>
-        <Name>Set Up Video Feeds</Name>
-        <Description />
-        <Combo>
-          <Combo>G3</Combo>
-          <Modifiers>None</Modifiers>
-          <Key>
-            <Key>G3</Key>
-            <Code>0</Code>
-          </Key>
-        </Combo>
-        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
-        <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
-        <ResetType>Never</ResetType>
-        <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Add</Action>
-                <Name>is2</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>1880</X>
-                    <Y>35</Y>
-                  </Location>
-                  <Size>
-                    <Width>612</Width>
-                    <Height>383</Height>
-                  </Size>
-                  <X>1880</X>
-                  <Y>35</Y>
-                  <Width>612</Width>
-                  <Height>383</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>true</UseKeyRepeat>
-                <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Add</Action>
-                <Name>is3</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>1880</X>
-                    <Y>418</Y>
-                  </Location>
-                  <Size>
-                    <Width>612</Width>
-                    <Height>383</Height>
-                  </Size>
-                  <X>1880</X>
-                  <Y>418</Y>
-                  <Width>612</Width>
-                  <Height>383</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>true</UseKeyRepeat>
-                <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Add</Action>
-                <Name>is4</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>1880</X>
-                    <Y>801</Y>
-                  </Location>
-                  <Size>
-                    <Width>612</Width>
-                    <Height>383</Height>
-                  </Size>
-                  <X>1880</X>
-                  <Y>801</Y>
-                  <Width>612</Width>
-                  <Height>383</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>true</UseKeyRepeat>
-                <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Add</Action>
-                <Name>is5</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>1895</X>
-                    <Y>1184</Y>
-                  </Location>
-                  <Size>
-                    <Width>660</Width>
-                    <Height>415</Height>
-                  </Size>
-                  <X>1895</X>
-                  <Y>1184</Y>
-                  <Width>660</Width>
-                  <Height>415</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>true</UseKeyRepeat>
-                <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Remove</Action>
-                <Name>is2</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>0</X>
-                    <Y>0</Y>
-                  </Location>
-                  <Size>
-                    <Width>0</Width>
-                    <Height>0</Height>
-                  </Size>
-                  <X>0</X>
-                  <Y>0</Y>
-                  <Width>0</Width>
-                  <Height>0</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>false</UseKeyRepeat>
-                <UseMouseRepeat>false</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Remove</Action>
-                <Name>is3</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>0</X>
-                    <Y>0</Y>
-                  </Location>
-                  <Size>
-                    <Width>0</Width>
-                    <Height>0</Height>
-                  </Size>
-                  <X>0</X>
-                  <Y>0</Y>
-                  <Width>0</Width>
-                  <Height>0</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>false</UseKeyRepeat>
-                <UseMouseRepeat>false</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Remove</Action>
-                <Name>is4</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>0</X>
-                    <Y>0</Y>
-                  </Location>
-                  <Size>
-                    <Width>0</Width>
-                    <Height>0</Height>
-                  </Size>
-                  <X>0</X>
-                  <Y>0</Y>
-                  <Width>0</Width>
-                  <Height>0</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>false</UseKeyRepeat>
-                <UseMouseRepeat>false</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="VideoFeedsAction">
-                <Action>Remove</Action>
-                <Name>is5</Name>
-                <Target>1</Target>
-                <IsSource>false</IsSource>
-                <Rect>
-                  <Location>
-                    <X>0</X>
-                    <Y>0</Y>
-                  </Location>
-                  <Size>
-                    <Width>0</Width>
-                    <Height>0</Height>
-                  </Size>
-                  <X>0</X>
-                  <Y>0</Y>
-                  <Width>0</Width>
-                  <Height>0</Height>
-                </Rect>
-                <Alpha>255</Alpha>
-                <UseKeyRepeat>false</UseKeyRepeat>
-                <UseMouseRepeat>false</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
-                <MappedKey />
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3788,6 +3080,1134 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
           </Step>
         </Steps>
       </MappedKey>
+      <MappedKey>
+        <Name>Set Up Video Feeds</Name>
+        <Description />
+        <Combo>
+          <Combo>G3</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>35</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>35</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>418</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>418</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1880</X>
+                    <Y>801</Y>
+                  </Location>
+                  <Size>
+                    <Width>612</Width>
+                    <Height>383</Height>
+                  </Size>
+                  <X>1880</X>
+                  <Y>801</Y>
+                  <Width>612</Width>
+                  <Height>383</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Add</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>1895</X>
+                    <Y>1184</Y>
+                  </Location>
+                  <Size>
+                    <Width>660</Width>
+                    <Height>415</Height>
+                  </Size>
+                  <X>1895</X>
+                  <Y>1184</Y>
+                  <Width>660</Width>
+                  <Height>415</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>true</UseKeyRepeat>
+                <UseMouseRepeat>true</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is2</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is3</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is4</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VideoFeedsAction">
+                <Action>Remove</Action>
+                <Name>is5</Name>
+                <Target>1</Target>
+                <IsSource>false</IsSource>
+                <Rect>
+                  <Location>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </Location>
+                  <Size>
+                    <Width>0</Width>
+                    <Height>0</Height>
+                  </Size>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>0</Width>
+                  <Height>0</Height>
+                </Rect>
+                <Alpha>255</Alpha>
+                <UseKeyRepeat>false</UseKeyRepeat>
+                <UseMouseRepeat>false</UseMouseRepeat>
+                <UseFocusHotkey>false</UseFocusHotkey>
+                <MappedKey />
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Set Camera</Name>
+        <Description />
+        <Combo>
+          <Combo>G4</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G4</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>all</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+                  <WoWMacroString>SetCamera</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee IWT Toggle</Name>
+        <Description />
+        <Combo>
+          <Combo>G6</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G6</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>On</Value>
+                <KeyMapString>General</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Melee IWT Enabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyStateAction">
+                <Target>all</Target>
+                <Value>Off</Value>
+                <KeyMapString>General</KeyMapString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="PopupTextAction">
+                <Target>self</Target>
+                <Text>Melee IWT Disabled</Text>
+                <DurationMS>500</DurationMS>
+                <FadeDurationMS>500</FadeDurationMS>
+                <Red>255</Red>
+                <Green>255</Green>
+                <Blue>255</Blue>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee IWT</Name>
+        <Description>The WoW Quick Start Guide has a section that explains how to set up Interact with Target, which will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
+
+See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Description>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>1</ResetTimer>
+        <ResetType>FromFirstPress</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>Control</KeyMapString>
+                <MappedKeyString>Click to Move On</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>Control</KeyMapString>
+                <MappedKeyString>Click to Move Off</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Strafe Left</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Left</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Casters</Target>
+                <Name>Move Left</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Right</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Casters</Target>
+                <Name>Move Right</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Up</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Up</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Casters</Target>
+                <Name>Move Forward</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Casters Down</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Down</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>Casters</Target>
+                <Name>Move Backward</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Strafe Left</Name>
+        <Description />
+        <Combo>
+          <Combo>Shift+Left</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Q</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Q</Key>
+                    <Code>16</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Shift+Right</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>E</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>E</Key>
+                    <Code>18</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Up</Name>
+        <Description />
+        <Combo>
+          <Combo>Shift+Up</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Up</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Up</Key>
+                    <Code>328</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Melee Down</Name>
+        <Description />
+        <Combo>
+          <Combo>Shift+Down</Combo>
+          <Modifiers>Shift</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>Melee</Target>
+                <Combo>
+                  <Combo>Down</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Down</Key>
+                    <Code>336</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Strafe Left</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Shift+Left</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Left</Key>
+            <Code>331</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Q</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Q</Key>
+                    <Code>16</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Strafe Right</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Shift+Right</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Right</Key>
+            <Code>333</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>E</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>E</Key>
+                    <Code>18</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Up</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Shift+Up</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Up</Key>
+            <Code>328</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Up</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Up</Key>
+                    <Code>328</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Others Down</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+Shift+Down</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Down</Key>
+            <Code>336</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="Keystroke">
+                <Target>all other</Target>
+                <Combo>
+                  <Combo>Down</Combo>
+                  <Modifiers>None</Modifiers>
+                  <Key>
+                    <Key>Down</Key>
+                    <Code>336</Code>
+                  </Key>
+                </Combo>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Switch To Tank</Name>
+        <Description>Generated by Mapped Key Wizard with 'Straight Key Broadcast'</Description>
+        <Combo>
+          <Combo>G13-G1</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G1</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>false</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WindowFocusAction">
+                <Window />
+                <Computer />
+                <FilterTarget>1</FilterTarget>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Line Formation - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G2</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G2</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Line Formation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Star Formation - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G3</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Star Formation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Face Target</Name>
+        <Description />
+        <Combo>
+          <Combo>G13-G8</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G8</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0.1</Stick>
+            <Stop>false</Stop>
+            <Stump>true</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Interact with Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Right</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interact with Target - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>Alt+G13-G19</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>G13-G19</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Interact with Target</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>FTL Follow Me - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G20</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G20</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>FTL Follow Me</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stop Follow</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>G13-G21</Combo>
+          <Modifiers>None</Modifiers>
+          <Key>
+            <Key>G13-G21</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>false</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnPressAndRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Left</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Right</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
     </Mappings>
   </KeyMap>
   <KeyMap>
@@ -3992,6 +4412,14 @@ If you want a subset (e.g. an Action Target Group) of characters to target you i
         <Description>The WoW Quick Start Guide has a section that explains how to set up Interact with Target, which will help you interact with NPCs (e.g. merchants, quest givers and enemies) and, when combined with Click to Move, can be used to keep melees on target.
 
 See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Description>
+        <Combo>
+          <Combo>Alt+J</Combo>
+          <Modifiers>Alt</Modifiers>
+          <Key>
+            <Key>J</Key>
+            <Code>36</Code>
+          </Key>
+        </Combo>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
         <ResetTimer>1</ResetTimer>
@@ -10310,6 +10738,665 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Shield Slam</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Revenge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Devastate</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Rend</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Activate Proc</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Thunder Clap</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Devastate</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Pummel</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Ground AOE</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Cooldowns</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Panic</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Warrior</WoWMacroSetString>
+                  <WoWMacroString>Charge</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Shadow Priest</Name>
+    <Description />
+    <UseFTLModifiers>false</UseFTLModifiers>
+    <Hold>false</Hold>
+    <Mode>OnRelease</Mode>
+    <Mappings>
+      <MappedKey>
+        <Name>DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Flay</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Shadow Word: Pain</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Vampiric Touch</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Devouring Plague</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>PVP AOE DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>true</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Activate Proc</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Blast</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Interrupt</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Silence</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Stun</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Ground AOE</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Cooldowns</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Panic</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Pull</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+    </Mappings>
+  </KeyMap>
+  <KeyMap>
+    <Name>Holy Priest</Name>
+    <Description />
+    <UseFTLModifiers>false</UseFTLModifiers>
+    <Hold>false</Hold>
+    <Mode>OnRelease</Mode>
+    <Mappings>
+      <MappedKey>
+        <Name>DPS Rotation</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
             <Actions />
           </Step>
         </Steps>
@@ -10404,7 +11491,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
+        <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>OnRelease</Mode>
         <Steps>
@@ -20533,7 +21620,2695 @@ Wrath of Air Totem - Does not stack.</Description>
   <WoWMacroSet>
     <Name>Warrior</Name>
     <Description />
-    <WoWMacros />
+    <WoWMacros>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Battle Shout
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Battle Shout</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Q</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Berserker Rage
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Berserker Rage</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+W</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Berserker Stance
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Berserker Stance</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+E</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Challenging Shout
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Challenging Shout</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+R</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Charge
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Charge</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+T</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Cleave
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Cleave</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Colossus Smash
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Colossus Smash</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+U</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Commanding Shout
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Commanding Shout</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Concussive Blow
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Concussion Blow</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+P</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Demoralizing Shout
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Demoralizing Shout</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+[</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Devastate
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Devastate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Disarm
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Disarm</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+;</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Enraged Regeneration
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Enraged Regeneration</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+'</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Execute
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Execute</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Hamstring
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Hamstring</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Heroic Leap
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heroic Leap</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+E</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Heroic Strike
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heroic Strike</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Heroic Throw
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heroic Throw</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Inner Rage
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Inner Rage</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Y</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Intercept
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Intercept</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+U</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Intervene
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Intervene</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+I</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>I</Key>
+            <Code>23</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Intimidating Shout
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Intimidating Shout</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+O</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Last Stand
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Last Stand</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Overpower
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Overpower</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Pummel
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Pummel</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Rallying Cry
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Rallying Cry</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+;</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Recklessness
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Recklessness</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Rend
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Rend</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Q</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Retaliation
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Retaliation</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+W</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Revenge
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Revenge</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+E</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shattering Throw
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shattering Throw</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+R</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shield Block
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shield Block</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+T</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shield Slam
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shield Slam</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Y</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shield Wall
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shield Wall</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+U</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Sunder Armor
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Sunder Armor</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+I</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>I</Key>
+            <Code>23</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Strike
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Strike</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+O</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Slam
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Slam</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+P</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Spell Reflection
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Spell Reflection</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+[</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Taunt
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Taunt</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+\</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Thunder Clap
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Thunder Clap</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+;</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Victory Rush
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Victory Rush</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+'</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Vigilance
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Vigilance</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+,</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Whirlwind
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Whirlwind</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+.</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+    </WoWMacros>
+  </WoWMacroSet>
+  <WoWMacroSet>
+    <Name>Priest</Name>
+    <Description />
+    <WoWMacros>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Arcane
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Binding Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Q</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Chakra
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chakra</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+W</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Circle of Healing
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Circle of Healing</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+E</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Cure Disease
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Cure Disease</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+R</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Devoiring Plague
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Devouring Plague</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+T</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Dispel Magic
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Dispel Magic</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Divine Hymn
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Divine Hymn</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+U</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Fade
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Fade</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Fear Ward
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Fear Ward</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+P</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Flash Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Flash Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+[</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Greater Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Greater Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+;</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Fire
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Fire</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+'</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Nova
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Nova</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+,</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Word: Chastise
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Word: Chastise</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+.</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Hymn of Hope
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Hymn of Hope</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+/</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>/</Key>
+            <Code>53</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Inner Fire
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Inner Fire</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Inner Will
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Inner Will</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Leap of Faith
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Leap of Faith</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+E</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Levitate
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Levitate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Lightwell
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lightwell</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mana Burn
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mana Burn</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Y</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Mass Dispel
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mass Dispel</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+U</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Blast
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Blast</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Control
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Control</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Flay
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Flay</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Sear
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Sear</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+;</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Soothe
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Soothe</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Spike
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Spike</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+,</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Mind Vision
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mind Vision</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+.</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Power Word: Fortitude
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Power Word: Fortitude</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+/</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>/</Key>
+            <Code>53</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Power Word: Shield
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Power Word: Shield</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Q</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Prayer of Healing
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Prayer of Healing</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+W</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Prayer of Mending
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Prayer of Mending</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+E</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Psychic Horror
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Psychic Horror</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+R</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Psychic Scream
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Psychic Scream</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+T</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Renew
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Renew</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Y</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shackle Undead
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shackle Undead</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+U</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shadow Protection
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shadow Protection</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+I</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>I</Key>
+            <Code>23</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shadow Word: Death
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shadow Word: Death</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+O</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shadow Word: Pain
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shadow Word: Pain</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+P</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shadowfiend
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shadowfiend</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+[</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Shadowform
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Shadowform</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+\</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Silence
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Silence</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+;</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Smite
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Smite</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+'</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Vampiric Embrace
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Vampiric Embrace</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+.</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Vampiric Touch
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Vampiric Touch</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+/</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>/</Key>
+            <Code>53</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+    </WoWMacros>
   </WoWMacroSet>
   <VariableKeystroke>
     <Name>Move Forward</Name>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="8/12/2012 3:24:55 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -7,6 +7,7 @@
     <Name>Team2</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -30,7 +31,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Axelfoley-Shu'halo</CharacterString>
+        <CharacterString>Axelfoley</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+1</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -58,7 +59,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Wallybfeed-Shu'halo</CharacterString>
+        <CharacterString>Wallybfeed</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -86,7 +87,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Gplechuck-Shu'halo</CharacterString>
+        <CharacterString>Gplechuck</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+3</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -114,7 +115,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Bigwhoop-Shu'halo</CharacterString>
+        <CharacterString>Bigwhoop</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+4</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -142,7 +143,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Shagoofy-Shu'halo</CharacterString>
+        <CharacterString>Shagoofy</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+5</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -185,6 +186,7 @@
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
       <string>Broadcast</string>
+      <string>Name Bar</string>
     </ClickBarStrings>
     <VirtualMappedKeys />
     <VariableKeystrokeInstances />
@@ -208,6 +210,7 @@
     <Name>Team GoMe</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -231,7 +234,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Jaimelyn-Shu'halo</CharacterString>
+        <CharacterString>Jaimelyn</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+1</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -259,7 +262,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Disneymax-Shu'halo</CharacterString>
+        <CharacterString>Disneymax</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -287,7 +290,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Aeryth-Shu'halo</CharacterString>
+        <CharacterString>Aeryth</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+3</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -315,7 +318,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Beezle-Shu'halo</CharacterString>
+        <CharacterString>Beezle</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+4</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -343,7 +346,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Oswald-Shu'halo</CharacterString>
+        <CharacterString>Oswald</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+5</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -386,6 +389,7 @@
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
       <string>Broadcast</string>
+      <string>Name Bar</string>
     </ClickBarStrings>
     <VirtualMappedKeys />
     <VariableKeystrokeInstances />
@@ -409,6 +413,7 @@
     <Name>Team SuperTramp</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -432,7 +437,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Disneymax-Shu'halo</CharacterString>
+        <CharacterString>Disneymax</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+1</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -460,7 +465,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Jaimelyn-Shu'halo</CharacterString>
+        <CharacterString>Jaimelyn</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -488,7 +493,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Shapluto-Shu'halo</CharacterString>
+        <CharacterString>Shapluto</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+3</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -516,7 +521,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Shadonald-Shu'halo</CharacterString>
+        <CharacterString>Shadonald</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+4</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -544,7 +549,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Beezle-Shu'halo</CharacterString>
+        <CharacterString>Beezle</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+5</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -587,6 +592,7 @@
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
       <string>Broadcast</string>
+      <string>Name Bar</string>
     </ClickBarStrings>
     <VirtualMappedKeys />
     <VariableKeystrokeInstances />
@@ -610,6 +616,7 @@
     <Name>WarriorPriestsAndMages</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -633,7 +640,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Axelfoley-Shu'halo</CharacterString>
+        <CharacterString>Axelfoley</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+1</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -661,7 +668,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Bigwhoop-Shu'halo</CharacterString>
+        <CharacterString>Bigwhoop</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+2</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -689,7 +696,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Wallybfeed-Shu'halo</CharacterString>
+        <CharacterString>Wallybfeed</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+3</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -717,7 +724,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Vinniemorris-Shu'halo</CharacterString>
+        <CharacterString>Vinniemorris</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+4</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -745,7 +752,7 @@
       <Slot>
         <ForegroundMaxFPS>60</ForegroundMaxFPS>
         <BackgroundMaxFPS>30</BackgroundMaxFPS>
-        <CharacterString>Frankbelson-Shu'halo</CharacterString>
+        <CharacterString>Frankbelson</CharacterString>
         <SwitchToCombo>
           <Combo>Ctrl+Alt+5</Combo>
           <Modifiers>Ctrl Alt</Modifiers>
@@ -788,6 +795,7 @@
     <KeyMapWhiteOrBlackList />
     <ClickBarStrings>
       <string>Broadcast</string>
+      <string>Name Bar</string>
     </ClickBarStrings>
     <VirtualMappedKeys />
     <VariableKeystrokeInstances />
@@ -804,11 +812,196 @@
       <WindowLayoutString>WarriorPriestsAndMages</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>SuperTramp2</Name>
+    <DisableFPSIndicator>false</DisableFPSIndicator>
+    <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
+    <CursorClippingMode>Allow</CursorClippingMode>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <UseConsoleToggleCombo>false</UseConsoleToggleCombo>
+    <LaunchDelay>1</LaunchDelay>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Disneymax</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+1</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Jaimelyn</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+2</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Aeryth</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+3</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Oswald</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+4</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Shadonald</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+5</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>9</unsignedInt>
+          <unsignedInt>10</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <LockWindow>true</LockWindow>
+    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>General</string>
+      <string>Control</string>
+      <string>FTL DPS Keys</string>
+      <string>Combat Hotkeys</string>
+      <string>Virtual Combat</string>
+      <string>Max</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings>
+      <string>Broadcast</string>
+      <string>Name Bar</string>
+    </ClickBarStrings>
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>General</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <LaunchCharacterSetStrings />
+    <WindowLayout>
+      <WindowLayoutString>Team SuperTramp</WindowLayoutString>
+    </WindowLayout>
+  </CharacterSet>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Axelfoley-Shu'halo</Name>
+    <Name>Axelfoley</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#1</SubAccountName>
     <ActualName>Axelfoley</ActualName>
@@ -816,7 +1009,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Non Healers</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Prot Warrior</string>
     </KeyMapStrings>
@@ -848,7 +1043,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Shagoofy-Shu'halo</Name>
+    <Name>Shagoofy</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>SCHILM</SubAccountName>
     <ActualName>Shagoofy</ActualName>
@@ -879,7 +1074,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Gplechuck-Shu'halo</Name>
+    <Name>Gplechuck</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#5</SubAccountName>
     <ActualName>Gplechuck</ActualName>
@@ -890,6 +1085,7 @@
     <RelayGroupStrings>
       <string>Casters</string>
       <string>Ground AOE</string>
+      <string>Non Healers</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Arcane Mage</string>
@@ -922,7 +1118,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Bigwhoop-Shu'halo</Name>
+    <Name>Bigwhoop</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#6</SubAccountName>
     <ActualName>Bigwhoop</ActualName>
@@ -933,6 +1129,7 @@
     <RelayGroupStrings>
       <string>Casters</string>
       <string>Ground AOE</string>
+      <string>Non Healers</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Arcane Mage</string>
@@ -965,7 +1162,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Wallybfeed-Shu'halo</Name>
+    <Name>Wallybfeed</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#7</SubAccountName>
     <ActualName>Wallybfeed</ActualName>
@@ -976,6 +1173,7 @@
     <RelayGroupStrings>
       <string>Casters</string>
       <string>Ground AOE</string>
+      <string>Non Healers</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Arcane Mage</string>
@@ -1008,7 +1206,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Jaimelyn-Shu'halo</Name>
+    <Name>Jaimelyn</Name>
     <AccountName>jaime@jaimeschilling.com</AccountName>
     <SubAccountName>50453207#1</SubAccountName>
     <ActualName>Jaimelyn</ActualName>
@@ -1019,6 +1217,7 @@
     <RelayGroupStrings>
       <string>Ground AOE</string>
       <string>Casters</string>
+      <string>Non Healers</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Arcane Mage</string>
@@ -1051,7 +1250,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Aeryth-Shu'halo</Name>
+    <Name>Aeryth</Name>
     <AccountName>jaime@jaimeschilling.com</AccountName>
     <SubAccountName>JLBURKE</SubAccountName>
     <ActualName>Aeryth</ActualName>
@@ -1094,7 +1293,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Disneymax-Shu'halo</Name>
+    <Name>Disneymax</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>SCHILM</SubAccountName>
     <ActualName>Disneymax</ActualName>
@@ -1134,7 +1333,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Beezle-Shu'halo</Name>
+    <Name>Beezle</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#6</SubAccountName>
     <ActualName>Beezle</ActualName>
@@ -1176,7 +1375,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Oswald-Shu'halo</Name>
+    <Name>Oswald</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#1</SubAccountName>
     <ActualName>Oswald</ActualName>
@@ -1219,7 +1418,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Shapluto-Shu'halo</Name>
+    <Name>Shapluto</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#5</SubAccountName>
     <ActualName>Shapluto</ActualName>
@@ -1245,23 +1444,14 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Elemental Shaman</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-    </VirtualMappedKeys>
+    <VirtualMappedKeys />
     <VariableKeystrokeInstances />
   </Character>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Shadonald-Shu'halo</Name>
+    <Name>Shadonald</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#2</SubAccountName>
     <ActualName>Shadonald</ActualName>
@@ -1287,23 +1477,14 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys>
-      <VirtualMappedKey>
-        <FromMappedKey>
-          <KeyMapString>Virtual Combat</KeyMapString>
-        </FromMappedKey>
-        <ToMappedKey>
-          <KeyMapString>Elemental Shaman</KeyMapString>
-        </ToMappedKey>
-      </VirtualMappedKey>
-    </VirtualMappedKeys>
+    <VirtualMappedKeys />
     <VariableKeystrokeInstances />
   </Character>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Vinniemorris-Shu'halo</Name>
+    <Name>Vinniemorris</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>SCHILM</SubAccountName>
     <ActualName>Vinniemorris</ActualName>
@@ -1313,6 +1494,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Casters</string>
+      <string>Non Healers</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Shadow Priest</string>
@@ -1345,7 +1527,7 @@
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
     </ExecuteOnLoad>
-    <Name>Frankbelson-Shu'halo</Name>
+    <Name>Frankbelson</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#5</SubAccountName>
     <ActualName>Frankbelson</ActualName>
@@ -1394,126 +1576,6 @@
           <Bounds>
             <Left>0</Left>
             <Top>0</Top>
-            <Width>1600</Width>
-            <Height>900</Height>
-          </Bounds>
-          <WorkingArea>
-            <Left>0</Left>
-            <Top>0</Top>
-            <Width>1600</Width>
-            <Height>900</Height>
-          </WorkingArea>
-          <Primary>true</Primary>
-          <DeviceName>\\.\DISPLAY1</DeviceName>
-        </UserScreen>
-      </AllScreens>
-      <Name>&lt;Window Layout-specified&gt;</Name>
-    </UserScreenSet>
-    <Name>Team Dethro</Name>
-    <Description>This Window Layout features maximum usage of a single monitor. Swapping enabled. Does not include a home for every window. Leaves space for the Windows taskbar.</Description>
-    <FocusFollowsMouse>false</FocusFollowsMouse>
-    <InstantSwap>true</InstantSwap>
-    <SwapMode>SpecificHotkey</SwapMode>
-    <FocusClickMode>ApplicationDefined</FocusClickMode>
-    <SwapHotkey>
-      <Combo>Alt+X</Combo>
-      <Modifiers>Alt</Modifiers>
-      <Key>
-        <Key>X</Key>
-        <Code>45</Code>
-      </Key>
-    </SwapHotkey>
-    <RolloverStyle>
-      <Enabled>false</Enabled>
-      <Scale>1.5</Scale>
-      <Rollup>false</Rollup>
-      <Frames>10</Frames>
-    </RolloverStyle>
-    <Regions>
-      <Region>
-        <CharacterSetSlot>0</CharacterSetSlot>
-        <SwapGroup>0</SwapGroup>
-        <Permanent>false</Permanent>
-        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
-        <Rect>
-          <Left>0</Left>
-          <Top>0</Top>
-          <Width>1600</Width>
-          <Height>720</Height>
-        </Rect>
-        <BorderStyle>None</BorderStyle>
-      </Region>
-      <Region>
-        <CharacterSetSlot>2</CharacterSetSlot>
-        <SwapGroup>0</SwapGroup>
-        <Permanent>false</Permanent>
-        <AlwaysOnTopMode>SometimesOnTop</AlwaysOnTopMode>
-        <Rect>
-          <Left>0</Left>
-          <Top>720</Top>
-          <Width>400</Width>
-          <Height>180</Height>
-        </Rect>
-        <BorderStyle>None</BorderStyle>
-      </Region>
-      <Region>
-        <CharacterSetSlot>3</CharacterSetSlot>
-        <SwapGroup>0</SwapGroup>
-        <Permanent>false</Permanent>
-        <AlwaysOnTopMode>SometimesOnTop</AlwaysOnTopMode>
-        <Rect>
-          <Left>400</Left>
-          <Top>720</Top>
-          <Width>400</Width>
-          <Height>180</Height>
-        </Rect>
-        <BorderStyle>None</BorderStyle>
-      </Region>
-      <Region>
-        <CharacterSetSlot>4</CharacterSetSlot>
-        <SwapGroup>0</SwapGroup>
-        <Permanent>false</Permanent>
-        <AlwaysOnTopMode>SometimesOnTop</AlwaysOnTopMode>
-        <Rect>
-          <Left>800</Left>
-          <Top>720</Top>
-          <Width>400</Width>
-          <Height>180</Height>
-        </Rect>
-        <BorderStyle>None</BorderStyle>
-      </Region>
-      <Region>
-        <CharacterSetSlot>5</CharacterSetSlot>
-        <SwapGroup>0</SwapGroup>
-        <Permanent>false</Permanent>
-        <AlwaysOnTopMode>SometimesOnTop</AlwaysOnTopMode>
-        <Rect>
-          <Left>1200</Left>
-          <Top>720</Top>
-          <Width>400</Width>
-          <Height>180</Height>
-        </Rect>
-        <BorderStyle>None</BorderStyle>
-      </Region>
-    </Regions>
-    <SwapGroups>
-      <SwapGroup ResetRegion="0" ActiveRegion="0" PiPSqueakSlot="1" DeactivateSwapGroup="0" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="1" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="2" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="3" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="4" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="5" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="6" />
-      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="7" />
-    </SwapGroups>
-  </WindowLayout>
-  <WindowLayout>
-    <UserScreenSet>
-      <AllScreens>
-        <UserScreen>
-          <Bounds>
-            <Left>0</Left>
-            <Top>0</Top>
             <Width>2560</Width>
             <Height>1600</Height>
           </Bounds>
@@ -1551,6 +1613,12 @@
     <InstantSwap>true</InstantSwap>
     <SwapMode>Never</SwapMode>
     <FocusClickMode>ApplicationDefined</FocusClickMode>
+    <RolloverStyle>
+      <Enabled>false</Enabled>
+      <Scale>1.5</Scale>
+      <Rollup>false</Rollup>
+      <Frames>10</Frames>
+    </RolloverStyle>
     <Regions>
       <Region>
         <CharacterSetSlot>1</CharacterSetSlot>
@@ -2322,7 +2390,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbars</Name>
-                <Target>1</Target>
+                <Target>is1,is2,is3,is4</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -2347,7 +2415,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>1</Target>
+                <Target>is1,is2,is3,is4</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -2829,7 +2897,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbars</Name>
-                <Target>1</Target>
+                <Target>is1,is2,is3,is4</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -2854,7 +2922,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>1</Target>
+                <Target>is1,is2,is3,is4</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -3124,7 +3192,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <Alpha>255</Alpha>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
+                <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
@@ -3149,7 +3217,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <Alpha>255</Alpha>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
+                <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
@@ -3174,7 +3242,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <Alpha>255</Alpha>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
+                <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
@@ -3199,7 +3267,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <Alpha>255</Alpha>
                 <UseKeyRepeat>true</UseKeyRepeat>
                 <UseMouseRepeat>true</UseMouseRepeat>
-                <UseFocusHotkey>false</UseFocusHotkey>
+                <UseFocusHotkey>true</UseFocusHotkey>
                 <MappedKey />
               </MappedKeyAction>
             </Actions>
@@ -5782,6 +5850,30 @@ The Quick Setup Wizard uses this and similar mappings for whatever character swi
                 <RegionType>Foreground</RegionType>
                 <Action>Fast</Action>
                 <DeactivateOthers>true</DeactivateOthers>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Focus window</Name>
+        <Description>This key can be used to rotate to the previous window (in Slot order). Just set a Hotkey above, and Export.
+</Description>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WindowFocusAction">
+                <Window />
+                <Computer />
+                <FilterTarget>self</FilterTarget>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -24469,9 +24561,6 @@ Wrath of Air Totem - Does not stack.</Description>
     <Category>Targeting</Category>
     <SubCategory>Per-slot targeting</SubCategory>
     <Description>This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 5, in the game. This is useful for being able to easily Auto-Follow or Assist each window.</Description>
-    <DefaultValue>
-      <Modifiers>None</Modifiers>
-    </DefaultValue>
   </VariableKeystroke>
   <VariableKeystroke>
     <Name>Target Slot 6</Name>
@@ -24552,7 +24641,16 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
             </Action>
           </ClickAction>
         </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Modifiers>None</Modifiers>
+          <Action>
+            <RoundRobin>false</RoundRobin>
+          </Action>
+        </MouseOverAction>
         <ClickThrough>false</ClickThrough>
+        <Tooltip />
+        <Text />
       </Button>
       <Button>
         <Enabled>true</Enabled>
@@ -24578,7 +24676,16 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
             </Action>
           </ClickAction>
         </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Modifiers>None</Modifiers>
+          <Action>
+            <RoundRobin>false</RoundRobin>
+          </Action>
+        </MouseOverAction>
         <ClickThrough>false</ClickThrough>
+        <Tooltip />
+        <Text />
       </Button>
     </Buttons>
   </ClickBar>
@@ -24641,6 +24748,7 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
           </Action>
         </MouseOverAction>
         <ClickThrough>false</ClickThrough>
+        <Tooltip />
         <Text />
       </Button>
       <Button>
@@ -24675,6 +24783,7 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
           </Action>
         </MouseOverAction>
         <ClickThrough>false</ClickThrough>
+        <Tooltip />
         <Text />
       </Button>
       <Button>
@@ -24709,7 +24818,79 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
           </Action>
         </MouseOverAction>
         <ClickThrough>false</ClickThrough>
+        <Tooltip />
         <Text />
+      </Button>
+    </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Name Bar</Name>
+    <Description />
+    <X>0</X>
+    <Y>0</Y>
+    <Alpha>1</Alpha>
+    <IconSize>0</IconSize>
+    <IconBorder>0</IconBorder>
+    <IconPadding>0</IconPadding>
+    <RowHeight>100</RowHeight>
+    <ColumnWidth>400</ColumnWidth>
+    <BackgroundColor>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+      <Alpha>255</Alpha>
+    </BackgroundColor>
+    <Border>0</Border>
+    <CellBorder>1</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <Buttons>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 1,1</Name>
+        <BackgroundColor>
+          <Red>0</Red>
+          <Green>0</Green>
+          <Blue>0</Blue>
+          <Alpha>255</Alpha>
+        </BackgroundColor>
+        <ClickActions>
+          <ClickAction>
+            <LeftRight>Left</LeftRight>
+            <Modifiers>None</Modifiers>
+            <Action>
+              <Target>self</Target>
+              <RoundRobin>false</RoundRobin>
+              <KeyMapString>Control</KeyMapString>
+              <MappedKeyString>Focus window</MappedKeyString>
+            </Action>
+          </ClickAction>
+        </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Modifiers>None</Modifiers>
+          <Action>
+            <RoundRobin>false</RoundRobin>
+          </Action>
+        </MouseOverAction>
+        <ClickThrough>true</ClickThrough>
+        <Tooltip />
+        <Text>{CHARACTER}</Text>
+        <TextStyle>
+          <Face>Arial</Face>
+          <Size>96</Size>
+          <Color>
+            <Red>255</Red>
+            <Green>255</Green>
+            <Blue>0</Blue>
+          </Color>
+          <Bold>false</Bold>
+        </TextStyle>
       </Button>
     </Buttons>
   </ClickBar>

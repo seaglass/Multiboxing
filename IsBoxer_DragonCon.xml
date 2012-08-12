@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="7/29/2012 2:27:17 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -7,7 +7,6 @@
     <Name>80s with Jaimelyn</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -146,7 +145,6 @@
     <Name>All 80s</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -303,7 +301,6 @@
     <Name>PallyAndPriests</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -460,7 +457,6 @@
     <Name>Pally &amp; DKs</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -617,7 +613,6 @@
     <Name>Shamans &amp; Druids</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -753,7 +748,6 @@
     <Name>Uncle</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -819,7 +813,6 @@
     <Name>Goblins</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -955,7 +948,6 @@
     <Name>Goblin Gather</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1051,7 +1043,6 @@
     <Name>GoblinsAll</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1208,7 +1199,6 @@
     <Name>MixBoost</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1365,7 +1355,6 @@
     <Name>PriestsAndShamanBoost</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1522,7 +1511,6 @@
     <Name>NorgannonGold</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1610,7 +1598,6 @@
     <Name>Shaman and 4 Locks</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1767,7 +1754,6 @@
     <Name>MixBoost2</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -1924,7 +1910,6 @@
     <Name>MixBoost-DPS and Healer</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2060,7 +2045,6 @@
     <Name>Group 3</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2217,7 +2201,6 @@
     <Name>Team DruSha (Instance)</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2374,7 +2357,6 @@
     <Name>Team DruSha (Two Screen)</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2521,7 +2503,6 @@
     <Name>Team 85 (Two Screen)</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2678,7 +2659,6 @@
     <Name>Team 85 (Instance)</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2825,7 +2805,6 @@
     <Name>Team Gods (with Aeryth)</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -2990,7 +2969,6 @@
     <Name>Druid PVP</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>
@@ -3086,7 +3064,6 @@
     <Name>BoostJuice</Name>
     <DisableFPSIndicator>false</DisableFPSIndicator>
     <DisableForceWindowed>false</DisableForceWindowed>
-    <DisableVSync>true</DisableVSync>
     <CursorClippingMode>Allow</CursorClippingMode>
     <GUIToggleCombo>
       <Combo>Ctrl+Shift+Alt+G</Combo>

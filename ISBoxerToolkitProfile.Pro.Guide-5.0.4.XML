@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/9/2012 4:20:44 PM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/9/2012 5:48:05 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -9141,7 +9141,39 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Fire Blast</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
                   <WoWMacroString>Arcane Explosion</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Flamestrike</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -9196,6 +9228,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Living Bomb</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -9345,22 +9393,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 <WoWMacro>
                   <WoWMacroSetString>Mage</WoWMacroSetString>
                   <WoWMacroString>Presence of Mind</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Blast</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -10154,47 +10186,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <ResetTimer>0</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>Default</Mode>
-        <Steps>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Moonfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Insect Swarm</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-        </Steps>
+        <Steps />
       </MappedKey>
       <MappedKey>
         <Name>AOE DPS Rotation</Name>
@@ -10520,22 +10512,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Thorns slot2</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -11288,22 +11264,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Shaman</WoWMacroSetString>
-                  <WoWMacroString>Searing Totem</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Shaman</WoWMacroSetString>
                   <WoWMacroString>Earth Shock</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
@@ -11729,6 +11689,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Mind Flay</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Blast</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -11793,6 +11769,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 <WoWMacro>
                   <WoWMacroSetString>Priest</WoWMacroSetString>
                   <WoWMacroString>Devouring Plague</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Blast</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -11965,7 +11957,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Blast</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -11982,7 +11991,56 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Desperate Prayer</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Dispersion</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Shadowfiend</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -11999,7 +12057,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Shadowform</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -17534,11 +17609,90 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Anti-Magic Shell</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+L</Combo>
+          <Combo>Ctrl+Shift+Alt+Q</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>L</Key>
-            <Code>38</Code>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Anti-Magic Zone</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+W</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+
+/click ErrorsOFF
+
+/cast Army of the Dead
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Army of the Dead</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+E</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Asphyxiate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+R</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17564,11 +17718,35 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Blood Boil</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+H</Combo>
+          <Combo>Ctrl+Shift+Alt+T</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>H</Key>
-            <Code>35</Code>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Blood of the North</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17592,11 +17770,107 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Blood Tap</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+;</Combo>
+          <Combo>Ctrl+Shift+Alt+U</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>;</Key>
-            <Code>39</Code>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Bone Shield</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chains of Ice</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+P</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Control Undead</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+[</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Conversion</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17622,11 +17896,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Dancing Rune Weapon</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+'</Combo>
+          <Combo>Ctrl+Shift+Alt+;</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>'</Key>
-            <Code>40</Code>
+            <Key>;</Key>
+            <Code>39</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17650,11 +17924,59 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Death and Decay</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+J</Combo>
+          <Combo>Ctrl+Shift+Alt+'</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>J</Key>
-            <Code>36</Code>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Death Coil</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+,</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Death Gate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+.</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17680,11 +18002,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Death Grip</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+K</Combo>
+          <Combo>Ctrl+Shift+Alt+/</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>K</Key>
-            <Code>37</Code>
+            <Key>/</Key>
+            <Code>53</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17708,11 +18030,35 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Death Pact</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Alt+J</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Num Lock</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>J</Key>
-            <Code>36</Code>
+            <Key>Num Lock</Key>
+            <Code>325</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Death Siphon</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 0</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 0</Key>
+            <Code>82</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17738,11 +18084,59 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Death Strike</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Alt+K</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Num 1</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>K</Key>
-            <Code>37</Code>
+            <Key>Num 1</Key>
+            <Code>79</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Death's Advance</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 2</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 2</Key>
+            <Code>80</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Desecrated Ground</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 3</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 3</Key>
+            <Code>81</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17766,214 +18160,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Empower Rune Weapon</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Alt+L</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>L</Key>
-            <Code>38</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-/click ErrorsOFF
-
-/cast Heart Strike
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Heart Strike</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Alt+;</Combo>
-          <Modifiers>Ctrl Alt</Modifiers>
-          <Key>
-            <Key>;</Key>
-            <Code>39</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Horn of Winter
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Horn of Winter</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+H</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>H</Key>
-            <Code>35</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Icebound Fortitude
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Icebound Fortitude</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+I</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>I</Key>
-            <Code>23</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Lichborne
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Lichborne</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+K</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>K</Key>
-            <Code>37</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-/click ErrorsOFF
-
-/cast Outbreak
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Outbreak</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+L</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>L</Key>
-            <Code>38</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-
-/click ErrorsOFF
-
-/cast Pestilence
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Pestilence</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+;</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>;</Key>
-            <Code>39</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Raise Dead
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Raise Dead</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Combo>Ctrl+Shift+Alt+Num 4</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
+            <Key>Num 4</Key>
+            <Code>75</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -17989,22 +18180,15 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-
-/click ErrorsOFF
-
-/cast Rune Strike
-
-/click ErrorsON</MacroCommands>
+        <MacroCommands />
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Rune Strike</ColloquialName>
+        <ColloquialName>Festering Strike</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+U</Combo>
+          <Combo>Ctrl+Shift+Alt+Num 5</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>U</Key>
-            <Code>22</Code>
+            <Key>Num 5</Key>
+            <Code>76</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -18020,109 +18204,15 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Rune Tap
-
-/click ErrorsON</MacroCommands>
+        <MacroCommands />
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Rune Tap</ColloquialName>
+        <ColloquialName>Frost Presence</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Combo>Ctrl+Shift+Alt+Num 6</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>O</Key>
-            <Code>24</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Vampiric Blood
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Vampiric Blood</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+P</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>P</Key>
-            <Code>25</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-
-/click ErrorsOFF
-
-/cast Obliterate
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Obliterate</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+Y</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-
-/click ErrorsOFF
-
-/cast Howling Blast
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Howling Blast</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+U</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>U</Key>
-            <Code>22</Code>
+            <Key>Num 6</Key>
+            <Code>77</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -18149,11 +18239,152 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Frost Strike</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+O</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Num 7</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>O</Key>
-            <Code>24</Code>
+            <Key>Num 7</Key>
+            <Code>71</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Gorefiend's Grasp</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 8</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 8</Key>
+            <Code>72</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+/click ErrorsOFF
+
+/cast Heart Strike
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heart Strike</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 9</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 9</Key>
+            <Code>73</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Horn of Winter
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Horn of Winter</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num /</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num /</Key>
+            <Code>309</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+
+/click ErrorsOFF
+
+/cast Howling Blast
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Howling Blast</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num *</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num *</Key>
+            <Code>55</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Icebound Fortitude
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Icebound Fortitude</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num -</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num -</Key>
+            <Code>74</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -18180,11 +18411,39 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Icy Touch</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+P</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Num +</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>P</Key>
-            <Code>25</Code>
+            <Key>Num +</Key>
+            <Code>78</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Lichborne
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Lichborne</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num Enter</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num Enter</Key>
+            <Code>284</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -18205,11 +18464,151 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Plague Strike
+/cast Mind Freeze
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Plague Strike</ColloquialName>
+        <ColloquialName>Mind Freeze</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Necrotic Strike</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+W</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+
+/click ErrorsOFF
+
+/cast Obliterate
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Obliterate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+E</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+/click ErrorsOFF
+
+/cast Outbreak
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Outbreak</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Path of Frost</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+T</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+
+/click ErrorsOFF
+
+/cast Pestilence
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Pestilence</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Y</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -18262,16 +18661,40 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Plague Leech</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+I</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>I</Key>
+            <Code>23</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
         <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
 /startattack
 
 /click ErrorsOFF
 
-/cast Strangulate
+/cast Plague Strike
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Strangulate</ColloquialName>
+        <ColloquialName>Plague Strike</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+O</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -18293,16 +18716,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
-/startattack
-
-/click ErrorsOFF
-
-/cast Mind Freeze
-
-/click ErrorsON</MacroCommands>
+        <MacroCommands />
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mind Freeze</ColloquialName>
+        <ColloquialName>Raise Ally</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+P</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -18324,22 +18740,329 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Raise Dead
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Raise Dead</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Remorseless Winter</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
         <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
 /startattack
 
 /click ErrorsOFF
 
-/cast Army of the Dead
+/cast Rune Strike
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Army of the Dead</ColloquialName>
+        <ColloquialName>Rune Strike</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+H</Combo>
+          <Combo>Ctrl+Shift+;</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>H</Key>
-            <Code>35</Code>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Rune Tap
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Rune Tap</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Runeforging</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+,</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Scourge Strike</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+.</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>.</Key>
+            <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Soul Reaper</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+/</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>/</Key>
+            <Code>53</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [target=target,noexists] [noharm] [dead]
+/startattack
+
+/click ErrorsOFF
+
+/cast Strangulate
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Strangulate</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num Lock</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num Lock</Key>
+            <Code>325</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Summon Gargoyle</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 0</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 0</Key>
+            <Code>82</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Unholy Blight</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 1</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 1</Key>
+            <Code>79</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Unholy Frenzy</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 2</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 2</Key>
+            <Code>80</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands />
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Unholy Presence</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 3</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 3</Key>
+            <Code>81</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Vampiric Blood
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Vampiric Blood</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 4</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 4</Key>
+            <Code>75</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -18449,7 +19172,9 @@ Wrath of Air Totem - Does not stack.</Description>
       <WoWMacro>
         <PreCommand>None</PreCommand>
         <MacroCommands>/click ErrorsOFF
+
 /cast Beacon of Light
+
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Beacon of Light</ColloquialName>
@@ -18556,7 +19281,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Blinding Light
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Blinding Light</ColloquialName>
         <Combo>
@@ -18580,7 +19309,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Cleanse
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Cleanse</ColloquialName>
         <Combo>
@@ -18662,7 +19395,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Denounce
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Denounce</ColloquialName>
         <Combo>
@@ -18714,7 +19451,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Divine Favor
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Divine Favor</ColloquialName>
         <Combo>
@@ -18738,7 +19479,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Divine Light
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Divine Light</ColloquialName>
         <Combo>
@@ -18762,7 +19507,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Divine Plea
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Divine Plea</ColloquialName>
         <Combo>
@@ -18842,7 +19591,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Divine Storm
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Divine Storm</ColloquialName>
         <Combo>
@@ -18866,7 +19619,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Emancipate
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Emancipate</ColloquialName>
         <Combo>
@@ -18890,7 +19647,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Eternal Flame
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Eternal Flame</ColloquialName>
         <Combo>
@@ -18914,7 +19675,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Execution Sentence
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Execution Sentence</ColloquialName>
         <Combo>
@@ -18938,7 +19703,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Exorcism
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Exorcism</ColloquialName>
         <Combo>
@@ -18962,7 +19731,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Fist of Justice
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Fist of Justice</ColloquialName>
         <Combo>
@@ -18986,7 +19759,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Flash of Light
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Flash of Light</ColloquialName>
         <Combo>
@@ -19181,7 +19958,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Hand of Purity
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Hand of Purity</ColloquialName>
         <Combo>
@@ -19261,7 +20042,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Holy Avenger
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Holy Avenger</ColloquialName>
         <Combo>
@@ -19314,7 +20099,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Holy Prism
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Holy Prism</ColloquialName>
         <Combo>
@@ -19338,7 +20127,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Holy Radiance
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Holy Radiance</ColloquialName>
         <Combo>
@@ -19477,7 +20270,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Lay on Hands
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Lay on Hands</ColloquialName>
         <Combo>
@@ -19501,7 +20298,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Light's Hammer
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Light's Hammer</ColloquialName>
         <Combo>
@@ -19525,7 +20326,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Light of Dawn
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Light of Dawn</ColloquialName>
         <Combo>
@@ -19578,7 +20383,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Reckoning
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Reckoning</ColloquialName>
         <Combo>
@@ -19602,7 +20411,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Redemption
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Redemption</ColloquialName>
         <Combo>
@@ -19626,7 +20439,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Repentance
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Repentance</ColloquialName>
         <Combo>
@@ -19678,7 +20495,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Sacred Shield
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Sacred Shield</ColloquialName>
         <Combo>
@@ -19730,7 +20551,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Seal of Insight
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Seal of Insight</ColloquialName>
         <Combo>
@@ -19839,7 +20664,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Speed of Light
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Speed of Light</ColloquialName>
         <Combo>
@@ -19863,7 +20692,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Templar's Verdict
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Templar's Verdict</ColloquialName>
         <Combo>
@@ -19887,7 +20720,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Turn Evil
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Turn Evil</ColloquialName>
         <Combo>
@@ -19911,7 +20748,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Word of Glory
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Word of Glory</ColloquialName>
         <Combo>
@@ -19941,7 +20782,14 @@ Wrath of Air Totem - Does not stack.</Description>
     <WoWMacros>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Alter Time
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Alter Time</ColloquialName>
         <Combo>
@@ -20027,7 +20875,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Arcane Brilliance
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Arcane Brilliance</ColloquialName>
         <Combo>
@@ -20051,7 +20906,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Arcane Explosion
@@ -20111,7 +20968,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Arcane Power
@@ -20140,7 +20999,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Blazing Speed
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Blazing Speed</ColloquialName>
         <Combo>
@@ -20164,7 +21030,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Blink
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Blink</ColloquialName>
         <Combo>
@@ -20217,7 +21090,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Cold Snap
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Cold Snap</ColloquialName>
         <Combo>
@@ -20241,7 +21121,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Combustion
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Combustion</ColloquialName>
         <Combo>
@@ -20294,7 +21181,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Conjure Familiar
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Conjure Familiar</ColloquialName>
         <Combo>
@@ -20346,7 +21240,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Conjure Refreshment
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Conjure Refreshment</ColloquialName>
         <Combo>
@@ -20370,7 +21268,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Conjure Refreshment Table
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Conjure Refreshment Table</ColloquialName>
         <Combo>
@@ -20423,7 +21325,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Crittermorph
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Crittermorph</ColloquialName>
         <Combo>
@@ -20447,7 +21353,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Deep Freeze
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Deep Freeze</ColloquialName>
         <Combo>
@@ -20471,7 +21384,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Dragon's Breath
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Dragon's Breath</ColloquialName>
         <Combo>
@@ -20524,7 +21444,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Fire Blast
@@ -20553,7 +21475,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Fireball
@@ -20582,7 +21506,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Flamestrike
@@ -20640,7 +21566,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Frost Bomb
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Frost Bomb</ColloquialName>
         <Combo>
@@ -20664,7 +21597,9 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
 /click ErrorsOFF
 
 /cast Frost Nova
@@ -20751,7 +21686,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Frostjaw
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Frostjaw</ColloquialName>
         <Combo>
@@ -20775,7 +21717,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Frozen Orb
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Frozen Orb</ColloquialName>
         <Combo>
@@ -20799,7 +21748,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Greater Invisibility
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Greater Invisibility</ColloquialName>
         <Combo>
@@ -20823,7 +21779,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Ice Barrier
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Ice Barrier</ColloquialName>
         <Combo>
@@ -20876,7 +21839,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Ice Floes
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Ice Floes</ColloquialName>
         <Combo>
@@ -20929,7 +21899,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Ice Ward
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Ice Ward</ColloquialName>
         <Combo>
@@ -20953,7 +21930,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Icy Veins
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Icy Veins</ColloquialName>
         <Combo>
@@ -20977,7 +21961,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Illusion
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Illusion</ColloquialName>
         <Combo>
@@ -21001,7 +21992,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Incanter's Ward
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Incanter's Ward</ColloquialName>
         <Combo>
@@ -21025,7 +22023,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Inferno Blast
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Inferno Blast</ColloquialName>
         <Combo>
@@ -21078,7 +22083,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Living Bomb
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Living Bomb</ColloquialName>
         <Combo>
@@ -21133,7 +22145,7 @@ Wrath of Air Totem - Does not stack.</Description>
         <MacroCommands>/click PreAttack
 /click ErrorsOFF
 
-/cast Mage Ward
+/cast Mage Bomb
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
@@ -21304,7 +22316,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Pyroblast
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Pyroblast</ColloquialName>
         <Combo>
@@ -21328,8 +22347,7 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click PreAttack
-/click ErrorsOFF
+        <MacroCommands>/click ErrorsOFF
 
 /cast Remove Curse
 
@@ -21386,7 +22404,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Rune of Power
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Rune of Power</ColloquialName>
         <Combo>
@@ -21526,7 +22551,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Summon Water Elemental
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Summon Water Elemental</ColloquialName>
         <Combo>
@@ -21579,7 +22611,14 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Temporal Shield
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Temporal Shield</ColloquialName>
         <Combo>
@@ -25613,7 +26652,8 @@ Wrath of Air Totem - Does not stack.</Description>
     <WoWMacros>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
 
 /cast Avatar
 
@@ -25783,7 +26823,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Bloodbath
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Bloodbath</ColloquialName>
         <Combo>
@@ -25807,7 +26852,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Bloodthirst
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Bloodthirst</ColloquialName>
         <Combo>
@@ -25947,7 +26997,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Deadly Calm
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Deadly Calm</ColloquialName>
         <Combo>
@@ -25971,7 +27026,11 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast Defensive Stance
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Defensive Stance</ColloquialName>
         <Combo>
@@ -25995,7 +27054,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Demoralizing Banner
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Demoralizing Banner</ColloquialName>
         <Combo>
@@ -26077,7 +27141,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Die by the Sword
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Die by the Sword</ColloquialName>
         <Combo>
@@ -26130,7 +27199,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Disrupting Shout
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Disrupting Shout</ColloquialName>
         <Combo>
@@ -26154,7 +27228,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Dragon Roar
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Dragon Roar</ColloquialName>
         <Combo>
@@ -26178,7 +27257,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Enraged Regeneration
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Enraged Regeneration</ColloquialName>
         <Combo>
@@ -26347,7 +27431,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Impending Victory
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Impending Victory</ColloquialName>
         <Combo>
@@ -26458,7 +27547,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Mass Spell Reflection
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mass Spell Reflection</ColloquialName>
         <Combo>
@@ -26482,7 +27576,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Mocking Banner
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mocking Banner</ColloquialName>
         <Combo>
@@ -26506,7 +27605,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Mortal Strike
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mortal Strike</ColloquialName>
         <Combo>
@@ -26559,7 +27663,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Piercing Howl
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Piercing Howl</ColloquialName>
         <Combo>
@@ -26612,7 +27721,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Raging Blow
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Raging Blow</ColloquialName>
         <Combo>
@@ -26723,7 +27837,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Safeguard
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Safeguard</ColloquialName>
         <Combo>
@@ -26776,7 +27895,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shield Barrier
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shield Barrier</ColloquialName>
         <Combo>
@@ -26887,7 +28011,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Shockwave
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shockwave</ColloquialName>
         <Combo>
@@ -26911,7 +28040,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Skull Banner
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Skull Banner</ColloquialName>
         <Combo>
@@ -26993,7 +28127,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Staggering Shout
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Staggering Shout</ColloquialName>
         <Combo>
@@ -27017,7 +28156,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Storm Bolt
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Storm Bolt</ColloquialName>
         <Combo>
@@ -27070,7 +28214,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Sweeping Strikes
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Sweeping Strikes</ColloquialName>
         <Combo>
@@ -27123,7 +28272,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Throw
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Throw</ColloquialName>
         <Combo>
@@ -27262,7 +28416,12 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click PreAttack
+/click ErrorsOFF
+
+/cast Wild Strike
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Wild Strike</ColloquialName>
         <Combo>
@@ -27296,11 +28455,11 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Arcane
+/cast Angelic Feather
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Binding Heal</ColloquialName>
+        <ColloquialName>Angelic Feather</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+Q</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -27326,11 +28485,11 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Chakra
+/cast Archangel
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Chakra</ColloquialName>
+        <ColloquialName>Archangel</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+W</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -27356,11 +28515,11 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Circle of Healing
+/cast Binding Heal
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Circle of Healing</ColloquialName>
+        <ColloquialName>Binding Heal</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+E</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -27382,19 +28541,199 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
+        <MacroCommands>/stopmacro [channeling]
 
-/cast Cure Disease
+/click ErrorsOFF
+
+/cast Cascade
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Cure Disease</ColloquialName>
+        <ColloquialName>Cascade</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+R</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>R</Key>
             <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Chakra: Chastise
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chakra: Chastise</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+T</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Chakra: Sanctuary
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chakra: Sanctuary</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Y</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Chakra: Serenity
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Chakra: Serenity</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+U</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Circle of Healing
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Circle of Healing</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+O</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>O</Key>
+            <Code>24</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Confession
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Confession</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+P</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Desperate Prayer
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Desperate Prayer</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+[</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27421,11 +28760,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Devouring Plague</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+T</Combo>
+          <Combo>Ctrl+Shift+Alt+\</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>T</Key>
-            <Code>20</Code>
+            <Key>\</Key>
+            <Code>43</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27452,189 +28791,6 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Dispel Magic</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+Y</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Divine Hymn
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Divine Hymn</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+U</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>U</Key>
-            <Code>22</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Fade
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Fade</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+O</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>O</Key>
-            <Code>24</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Fear Ward
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Fear Ward</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+P</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>P</Key>
-            <Code>25</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-
-/click ErrorsOFF
-
-/cast Flash Heal
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Flash Heal</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+[</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>[</Key>
-            <Code>26</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-
-/click ErrorsOFF
-
-/cast Greater Heal
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Greater Heal</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Alt+\</Combo>
-          <Modifiers>Ctrl Shift Alt</Modifiers>
-          <Key>
-            <Key>\</Key>
-            <Code>43</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-
-/click ErrorsOFF
-
-/cast Heal
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Heal</ColloquialName>
-        <Combo>
           <Combo>Ctrl+Shift+Alt+;</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
@@ -27656,15 +28812,14 @@ Wrath of Air Totem - Does not stack.</Description>
       <WoWMacro>
         <PreCommand>None</PreCommand>
         <MacroCommands>/stopmacro [channeling]
-/click PreAttack
 
 /click ErrorsOFF
 
-/cast Holy Fire
+/cast Dispersion
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Holy Fire</ColloquialName>
+        <ColloquialName>Dispersion</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+'</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -27687,15 +28842,14 @@ Wrath of Air Totem - Does not stack.</Description>
       <WoWMacro>
         <PreCommand>None</PreCommand>
         <MacroCommands>/stopmacro [channeling]
-/click PreAttack
 
 /click ErrorsOFF
 
-/cast Holy Nova
+/cast Divine Focus
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Holy Nova</ColloquialName>
+        <ColloquialName>Divine Focus</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+,</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
@@ -27722,17 +28876,444 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Holy Word: Chastise
+/cast Divine Hymn
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Holy Word: Chastise</ColloquialName>
+        <ColloquialName>Divine Hymn</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+Alt+.</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
             <Key>.</Key>
             <Code>52</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Divine Star
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Divine Star</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+/</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>/</Key>
+            <Code>53</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Dominate Mind
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Dominate Mind</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 0</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 0</Key>
+            <Code>82</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Fade
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Fade</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 1</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 1</Key>
+            <Code>79</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Fear Ward
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Fear Ward</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 2</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 2</Key>
+            <Code>80</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Flash Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Flash Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 3</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 3</Key>
+            <Code>81</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Greater Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Greater Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 4</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 4</Key>
+            <Code>75</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Guardian Spirit
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Guardian Spirit</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 5</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 5</Key>
+            <Code>76</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Halo
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Halo</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 6</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 6</Key>
+            <Code>77</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Heal
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Heal</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 7</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 7</Key>
+            <Code>71</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Fire
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Fire</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 8</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 8</Key>
+            <Code>72</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Nova
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Nova</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num 9</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num 9</Key>
+            <Code>73</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Word: Chastise
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Word: Chastise</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num Lock</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num Lock</Key>
+            <Code>325</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Word: Sanctuary
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Word: Sanctuary</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num /</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num /</Key>
+            <Code>309</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Holy Word: Serenity
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Holy Word: Serenity</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num *</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num *</Key>
+            <Code>55</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27759,11 +29340,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Hymn of Hope</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Alt+/</Combo>
+          <Combo>Ctrl+Shift+Alt+Num -</Combo>
           <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>/</Key>
-            <Code>53</Code>
+            <Key>Num -</Key>
+            <Code>74</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27790,11 +29371,41 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Inner Fire</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+Q</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
+          <Combo>Ctrl+Shift+Alt+Num +</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
           <Key>
-            <Key>Q</Key>
-            <Code>16</Code>
+            <Key>Num +</Key>
+            <Code>78</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Inner Focus
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Inner Focus</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Alt+Num Enter</Combo>
+          <Modifiers>Ctrl Shift Alt</Modifiers>
+          <Key>
+            <Key>Num Enter</Key>
+            <Code>284</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27821,11 +29432,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Inner Will</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+W</Combo>
+          <Combo>Ctrl+Shift+Q</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>W</Key>
-            <Code>17</Code>
+            <Key>Q</Key>
+            <Code>16</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27852,11 +29463,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Leap of Faith</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+E</Combo>
+          <Combo>Ctrl+Shift+W</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>E</Key>
-            <Code>18</Code>
+            <Key>W</Key>
+            <Code>17</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27880,11 +29491,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Levitate</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+R</Combo>
+          <Combo>Ctrl+Shift+E</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>R</Key>
-            <Code>19</Code>
+            <Key>E</Key>
+            <Code>18</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -27907,6 +29518,34 @@ Wrath of Air Totem - Does not stack.</Description>
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Lightwell</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+R</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>R</Key>
+            <Code>19</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/click ErrorsOFF
+
+/cast Mass Dispel
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mass Dispel</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+T</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -27933,107 +29572,17 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Mana Burn
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mana Burn</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+Y</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/click ErrorsOFF
-
-/cast Mass Dispel
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mass Dispel</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+U</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>U</Key>
-            <Code>22</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
 /cast Mind Blast
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mind Blast</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+P</Combo>
+          <Combo>Ctrl+Shift+Y</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>P</Key>
-            <Code>25</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Mind Control
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mind Control</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+[</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>[</Key>
-            <Code>26</Code>
+            <Key>Y</Key>
+            <Code>21</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28060,11 +29609,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mind Flay</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+\</Combo>
+          <Combo>Ctrl+Shift+U</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>\</Key>
-            <Code>43</Code>
+            <Key>U</Key>
+            <Code>22</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28091,42 +29640,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mind Sear</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+;</Combo>
+          <Combo>Ctrl+Shift+I</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>;</Key>
-            <Code>39</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Mind Soothe
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Mind Soothe</ColloquialName>
-        <Combo>
-          <Combo>Ctrl+Shift+'</Combo>
-          <Modifiers>Ctrl Shift</Modifiers>
-          <Key>
-            <Key>'</Key>
-            <Code>40</Code>
+            <Key>I</Key>
+            <Code>23</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28153,11 +29671,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mind Spike</ColloquialName>
         <Combo>
-          <Combo>Ctrl+Shift+,</Combo>
+          <Combo>Ctrl+Shift+O</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>,</Key>
-            <Code>51</Code>
+            <Key>O</Key>
+            <Code>24</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28183,6 +29701,187 @@ Wrath of Air Totem - Does not stack.</Description>
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mind Vision</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+P</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>P</Key>
+            <Code>25</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Mindbender
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mindbender</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+[</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>[</Key>
+            <Code>26</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Mysticism
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Mysticism</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+\</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>\</Key>
+            <Code>43</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Pain Suppression
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Pain Suppression</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+;</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>;</Key>
+            <Code>39</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Pennance
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Penance</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+'</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>'</Key>
+            <Code>40</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Power Infusion
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Power Infusion</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+,</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>,</Key>
+            <Code>51</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Power Word: Barrier
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Power Word: Barrier</ColloquialName>
         <Combo>
           <Combo>Ctrl+Shift+.</Combo>
           <Modifiers>Ctrl Shift</Modifiers>
@@ -28246,11 +29945,42 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Power Word: Shield</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+Q</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num Lock</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>Q</Key>
-            <Code>16</Code>
+            <Key>Num Lock</Key>
+            <Code>325</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+/click PreAttack
+
+/click ErrorsOFF
+
+/cast Power Word: Solace
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Power Word: Solace</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 0</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 0</Key>
+            <Code>82</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28276,11 +30006,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Prayer of Healing</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+W</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 1</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>W</Key>
-            <Code>17</Code>
+            <Key>Num 1</Key>
+            <Code>79</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28306,11 +30036,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Prayer of Mending</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+E</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 2</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>E</Key>
-            <Code>18</Code>
+            <Key>Num 2</Key>
+            <Code>80</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28337,11 +30067,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Psychic Horror</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+R</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 3</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>R</Key>
-            <Code>19</Code>
+            <Key>Num 3</Key>
+            <Code>81</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28368,11 +30098,71 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Psychic Scream</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+T</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 4</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>T</Key>
-            <Code>20</Code>
+            <Key>Num 4</Key>
+            <Code>75</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Psyfiend
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Psyfiend</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 5</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 5</Key>
+            <Code>76</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Purify
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Purify</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 6</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 6</Key>
+            <Code>77</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28398,11 +30188,41 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Renew</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+Y</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 7</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>Y</Key>
-            <Code>21</Code>
+            <Key>Num 7</Key>
+            <Code>71</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Resurrection
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Resurrection</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+Num 8</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>Num 8</Key>
+            <Code>72</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28429,42 +30249,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shackle Undead</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+U</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num 9</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>U</Key>
-            <Code>22</Code>
-          </Key>
-        </Combo>
-        <AllowCustomModifiers>
-          <LAlt>false</LAlt>
-          <RAlt>false</RAlt>
-          <LShift>false</LShift>
-          <RShift>false</RShift>
-          <LCtrl>false</LCtrl>
-          <RCtrl>false</RCtrl>
-        </AllowCustomModifiers>
-        <UseFTLModifiers>false</UseFTLModifiers>
-        <Description />
-      </WoWMacro>
-      <WoWMacro>
-        <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
-
-/cast Shadow Protection
-
-/click ErrorsON</MacroCommands>
-        <TargetLastTarget>false</TargetLastTarget>
-        <ColloquialName>Shadow Protection</ColloquialName>
-        <Combo>
-          <Combo>Shift+Alt+I</Combo>
-          <Modifiers>Shift Alt</Modifiers>
-          <Key>
-            <Key>I</Key>
-            <Code>23</Code>
+            <Key>Num 9</Key>
+            <Code>73</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28491,11 +30280,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shadow Word: Death</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+O</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num /</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>O</Key>
-            <Code>24</Code>
+            <Key>Num /</Key>
+            <Code>309</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28522,11 +30311,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shadow Word: Pain</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+P</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num *</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>P</Key>
-            <Code>25</Code>
+            <Key>Num *</Key>
+            <Code>55</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28553,11 +30342,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shadowfiend</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+[</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num -</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>[</Key>
-            <Code>26</Code>
+            <Key>Num -</Key>
+            <Code>74</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28573,10 +30362,7 @@ Wrath of Air Totem - Does not stack.</Description>
       </WoWMacro>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands>/stopmacro [channeling]
-/click PreAttack
-
-/click ErrorsOFF
+        <MacroCommands>/click ErrorsOFF
 
 /cast Shadowform
 
@@ -28584,11 +30370,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Shadowform</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+\</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num +</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>\</Key>
-            <Code>43</Code>
+            <Key>Num +</Key>
+            <Code>78</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28615,11 +30401,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Silence</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+;</Combo>
-          <Modifiers>Shift Alt</Modifiers>
+          <Combo>Ctrl+Shift+Num Enter</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
           <Key>
-            <Key>;</Key>
-            <Code>39</Code>
+            <Key>Num Enter</Key>
+            <Code>284</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28646,11 +30432,71 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Smite</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+'</Combo>
+          <Combo>Shift+Alt+Q</Combo>
           <Modifiers>Shift Alt</Modifiers>
           <Key>
-            <Key>'</Key>
-            <Code>40</Code>
+            <Key>Q</Key>
+            <Code>16</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Spectral Guise
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Spectral Guise</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+W</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>W</Key>
+            <Code>17</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Spirit Shell
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Spirit Shell</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+E</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>E</Key>
+            <Code>18</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28677,11 +30523,11 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Vampiric Embrace</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+.</Combo>
+          <Combo>Shift+Alt+R</Combo>
           <Modifiers>Shift Alt</Modifiers>
           <Key>
-            <Key>.</Key>
-            <Code>52</Code>
+            <Key>R</Key>
+            <Code>19</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -28708,11 +30554,71 @@ Wrath of Air Totem - Does not stack.</Description>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Vampiric Touch</ColloquialName>
         <Combo>
-          <Combo>Shift+Alt+/</Combo>
+          <Combo>Shift+Alt+T</Combo>
           <Modifiers>Shift Alt</Modifiers>
           <Key>
-            <Key>/</Key>
-            <Code>53</Code>
+            <Key>T</Key>
+            <Code>20</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Void Shift
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Void Shift</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+Y</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>Y</Key>
+            <Code>21</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/stopmacro [channeling]
+
+/click ErrorsOFF
+
+/cast Void Tendrils
+
+/click ErrorsON</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Void Tendrils</ColloquialName>
+        <Combo>
+          <Combo>Shift+Alt+U</Combo>
+          <Modifiers>Shift Alt</Modifiers>
+          <Key>
+            <Key>U</Key>
+            <Code>22</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>

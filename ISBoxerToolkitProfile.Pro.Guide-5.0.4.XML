@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/22/2012 2:40:09 AM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/22/2012 5:14:36 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -380,6 +380,7 @@
       <string>Max</string>
       <string>Virtual Combat</string>
       <string>Combat Hotkeys</string>
+      <string>FTL DPS Keys</string>
     </KeyMapStrings>
     <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
     <KeyMapWhiteOrBlackList />
@@ -622,6 +623,176 @@
       <WindowLayoutString>2 Stacked</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Pandaria 1</Name>
+    <DisableFPSIndicator>false</DisableFPSIndicator>
+    <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
+    <CursorClippingMode>Allow</CursorClippingMode>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <VideoFXFocusCombo>
+      <Combo>Alt+Mouse1</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>Mouse1</Key>
+        <Code>0</Code>
+      </Key>
+    </VideoFXFocusCombo>
+    <UseConsoleToggleCombo>false</UseConsoleToggleCombo>
+    <LaunchDelay>1</LaunchDelay>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Disneymax</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+1</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Frankbelson</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+2</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Threepwood</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+3</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Bigwhoop</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+4</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <LockWindow>true</LockWindow>
+    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>General</string>
+      <string>Control</string>
+      <string>FTL DPS Keys</string>
+      <string>Max</string>
+      <string>Virtual Combat</string>
+      <string>Combat Hotkeys</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings>
+      <string>Broadcast</string>
+    </ClickBarStrings>
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <LaunchCharacterSetStrings />
+    <WindowLayout>
+      <WindowLayoutString>Pandaria 1</WindowLayoutString>
+    </WindowLayout>
+  </CharacterSet>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -684,6 +855,7 @@
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Mage Arcane</string>
+      <string>Druid Balance</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -989,7 +1161,16 @@
         <WoWMacroSetString>Druid</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Druid Guardian</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1009,6 +1190,7 @@
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Priest Holy</string>
+      <string>Priest Shadow</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -1028,7 +1210,7 @@
           <KeyMapString>Virtual Combat</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Priest Holy</KeyMapString>
+          <KeyMapString>Priest Shadow</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1174,7 +1356,9 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Druid Balance</string>
     </KeyMapStrings>
@@ -1190,7 +1374,16 @@
         <WoWMacroSetString>Druid</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Druid Balance</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1505,6 +1698,7 @@
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Shaman Resto</string>
+      <string>Shaman Elemental</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -1545,7 +1739,9 @@
     <RelayGroupStrings>
       <string>Casters</string>
     </RelayGroupStrings>
-    <KeyMapStrings />
+    <KeyMapStrings>
+      <string>Shaman Elemental</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -1558,7 +1754,16 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman Elemental</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1573,8 +1778,12 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
-    <KeyMapStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
+    <KeyMapStrings>
+      <string>Shaman Elemental</string>
+    </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
       <VirtualFileTarget>
@@ -1587,7 +1796,16 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman Elemental</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1620,7 +1838,16 @@
         <WoWMacroSetString>Shaman</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Shaman Resto</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1635,9 +1862,12 @@
     <GameProfile>World of Warcraft Default Profile</GameProfile>
     <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
     <KnownGame>WoW</KnownGame>
-    <RelayGroupStrings />
+    <RelayGroupStrings>
+      <string>Casters</string>
+    </RelayGroupStrings>
     <KeyMapStrings>
       <string>Priest Holy</string>
+      <string>Priest Shadow</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -1651,7 +1881,16 @@
         <WoWMacroSetString>Priest</WoWMacroSetString>
       </WoWMacroSetLooseRef>
     </WoWMacroSets>
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Priest Shadow</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
@@ -1910,7 +2149,10 @@
     <VariableKeystrokeInstances />
   </Character>
   <Character>
-    <Name>Toddhoward-Shu'halo</Name>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Toddhoward</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>868495#7</SubAccountName>
     <ActualName>Toddhoward</ActualName>
@@ -1928,11 +2170,23 @@
       </VirtualFileTarget>
     </VirtualFileTargets>
     <WoWMacroSets />
-    <VirtualMappedKeys />
+    <VirtualMappedKeys>
+      <VirtualMappedKey>
+        <FromMappedKey>
+          <KeyMapString>Virtual Combat</KeyMapString>
+        </FromMappedKey>
+        <ToMappedKey>
+          <KeyMapString>Rogue Mutilation</KeyMapString>
+        </ToMappedKey>
+      </VirtualMappedKey>
+    </VirtualMappedKeys>
     <VariableKeystrokeInstances />
   </Character>
   <Character>
-    <Name>Yensid-Shu'halo</Name>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Yensid</Name>
     <AccountName>max@maxschilling.com</AccountName>
     <SubAccountName>SCHILM</SubAccountName>
     <ActualName>Yensid</ActualName>
@@ -2174,6 +2428,108 @@
       <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="7" />
     </SwapGroups>
   </WindowLayout>
+  <WindowLayout>
+    <UserScreenSet>
+      <AllScreens>
+        <UserScreen>
+          <Bounds>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1600</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1560</Height>
+          </WorkingArea>
+          <Primary>true</Primary>
+          <DeviceName>\\.\DISPLAY1</DeviceName>
+        </UserScreen>
+        <UserScreen>
+          <Bounds>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </WorkingArea>
+          <Primary>false</Primary>
+          <DeviceName>\\.\DISPLAY2</DeviceName>
+        </UserScreen>
+      </AllScreens>
+      <Name>&lt;Current Screen Layout&gt;</Name>
+    </UserScreenSet>
+    <Name>Pandaria 1</Name>
+    <Description>This Window Layout features stacked windows with no border, the size of the full screen, on \\.\DISPLAY1. Swapping disabled. Does not leave space for the Windows taskbar. This style is great in conjunction with Video FX to see parts of, or all of, the other windows.</Description>
+    <FocusFollowsMouse>false</FocusFollowsMouse>
+    <InstantSwap>true</InstantSwap>
+    <SwapMode>Never</SwapMode>
+    <FocusClickMode>ApplicationDefined</FocusClickMode>
+    <Regions>
+      <Region>
+        <CharacterSetSlot>1</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>2</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>3</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>4</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+    </Regions>
+    <SwapGroups>
+      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="0" />
+    </SwapGroups>
+  </WindowLayout>
   <RepeaterProfile>
     <Name>Default</Name>
     <Description>It is not recommended to change the Startup defaults of the generated Repeater Profile, or to set Hotkeys in it. For best results, assign a hotkey through the Control Key Map instead.
@@ -2394,7 +2750,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbars</Name>
-                <Target>5</Target>
+                <Target>2</Target>
                 <IsSource>true</IsSource>
                 <Rect>
                   <Location>
@@ -2419,7 +2775,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>5</Target>
+                <Target>2</Target>
                 <IsSource>true</IsSource>
                 <Rect>
                   <Location>
@@ -2443,7 +2799,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buffs2</Name>
+                <Name>buffs5</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2468,7 +2824,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buffs3</Name>
+                <Name>buffs4</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2493,7 +2849,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buffs4</Name>
+                <Name>buffs3</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2518,7 +2874,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buffs5</Name>
+                <Name>buffs2</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2544,7 +2900,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbars</Name>
-                <Target>is1,is2,is3,is4</Target>
+                <Target>is1,is3,is4,is5</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -2569,7 +2925,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>is1,is2,is3,is4</Target>
+                <Target>is1,is3,is4,is5</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -2693,7 +3049,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buttons2</Name>
+                <Name>buttons5</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2718,7 +3074,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buttons3</Name>
+                <Name>buttons4</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2743,7 +3099,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buttons4</Name>
+                <Name>buttons3</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2768,7 +3124,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>buttons5</Name>
+                <Name>buttons2</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -2901,7 +3257,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbars</Name>
-                <Target>5</Target>
+                <Target>2</Target>
                 <IsSource>true</IsSource>
                 <Rect>
                   <Location>
@@ -2926,7 +3282,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>5</Target>
+                <Target>2</Target>
                 <IsSource>true</IsSource>
                 <Rect>
                   <Location>
@@ -3051,7 +3407,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbars</Name>
-                <Target>is1,is2,is3,is4</Target>
+                <Target>is1,is3,is4,is5</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -3076,7 +3432,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Remove</Action>
                 <Name>healerbarsinfo</Name>
-                <Target>is1,is2,is3,is4</Target>
+                <Target>is1,is3,is4,is5</Target>
                 <IsSource>false</IsSource>
                 <Rect>
                   <Location>
@@ -3326,7 +3682,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
             <Actions>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>is2</Name>
+                <Name>is5</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -3351,7 +3707,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>is3</Name>
+                <Name>is4</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -3376,7 +3732,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>is4</Name>
+                <Name>is3</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -3401,7 +3757,7 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
               </MappedKeyAction>
               <MappedKeyAction xsi:type="VideoFeedsAction">
                 <Action>Add</Action>
-                <Name>is5</Name>
+                <Name>is2</Name>
                 <Target>1</Target>
                 <IsSource>false</IsSource>
                 <Rect>
@@ -3772,6 +4128,44 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
         </Steps>
       </MappedKey>
       <MappedKey>
+        <Name>Reverse Star Formation - Alternate</Name>
+        <Description>Generated by Mapped Key Wizard with 'Alternate Hotkey'. The 'Hold' option is used here to retain the original Hotkey's behavior for when it is Pressed and Released.</Description>
+        <Combo>
+          <Combo>Ctrl+G13-G3</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>G13-G3</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <UseFTLModifiers>
+          <Value>false</Value>
+        </UseFTLModifiers>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Reverse Star Formation</MappedKeyString>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
         <Name>Face Target</Name>
         <Description />
         <Combo>
@@ -3782,16 +4176,19 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
             <Code>0</Code>
           </Key>
         </Combo>
+        <Hold>
+          <Value>false</Value>
+        </Hold>
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0</ResetTimer>
+        <ResetTimer>0.1</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>OnPressAndRelease</Mode>
         <Steps>
           <Step>
-            <Stick>0.1</Stick>
+            <Stick>0</Stick>
             <Stop>false</Stop>
-            <Stump>true</Stump>
+            <Stump>false</Stump>
             <Actions>
               <MappedKeyAction xsi:type="MappedKeyExecuteAction">
                 <Target>self</Target>
@@ -3811,6 +4208,12 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <RoundRobin>false</RoundRobin>
                 <KeyMapString>General</KeyMapString>
                 <MappedKeyString>Others turn Right</MappedKeyString>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="MappedKeyExecuteAction">
+                <Target>self</Target>
+                <RoundRobin>false</RoundRobin>
+                <KeyMapString>General</KeyMapString>
+                <MappedKeyString>Others turn Left</MappedKeyString>
               </MappedKeyAction>
             </Actions>
           </Step>
@@ -3852,6 +4255,48 @@ When using the Quick Setup, you should rarely need to use Repeater. See the WoW 
                 <WoWMacro>
                   <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
                   <WoWMacroString>Mount</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DisMount</Name>
+        <Description />
+        <Combo>
+          <Combo>Ctrl+G13-G16</Combo>
+          <Modifiers>Ctrl</Modifiers>
+          <Key>
+            <Key>G13-G16</Key>
+            <Code>0</Code>
+          </Key>
+        </Combo>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>all</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+                  <WoWMacroString>Dismount</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -4835,8 +5280,8 @@ See http://isboxer.com/wiki/WoW:Quick_Start_Guide#Interaction_with_NPCs.</Descri
         <Name>Others Jump</Name>
         <Description>Makes your other characters jump.</Description>
         <Combo>
-          <Combo>Ctrl+Space</Combo>
-          <Modifiers>Ctrl</Modifiers>
+          <Combo>Alt+Space</Combo>
+          <Modifiers>Alt</Modifiers>
           <Key>
             <Key>Space</Key>
             <Code>57</Code>
@@ -5207,6 +5652,49 @@ This can be used to break auto-follow (some games do not provide a more convenie
               <MappedKeyAction xsi:type="VariableKeystrokeAction">
                 <Target>all other</Target>
                 <Name>Turn Right</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>Reverse Star Formation</Name>
+        <Description>Make sure your movement keys are configured under Variable Keystrokes in order to use this Formation!
+
+The Star formation aligns your characters in all four directions around the leader (forward, backward, left and right). This example mapping always aligns them around the character in slot 1. Works for up to 5 characters.</Description>
+        <Hold>
+          <Value>true</Value>
+        </Hold>
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>3</Target>
+                <Name>Move Backward</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>2</Target>
+                <Name>Move Forward</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>5</Target>
+                <Name>Move Left</Name>
+                <RoundRobin>false</RoundRobin>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="VariableKeystrokeAction">
+                <Target>4</Target>
+                <Name>Move Right</Name>
                 <RoundRobin>false</RoundRobin>
               </MappedKeyAction>
             </Actions>
@@ -9244,7 +9732,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Lacerate</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9261,7 +9766,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Maul</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9329,7 +9851,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Mangle</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9380,7 +9919,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Swipe</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9397,7 +9953,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Thrash</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Barkskin</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9414,7 +10003,56 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Might of Ursoc</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Frenzied Regeneration</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Renewal</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9431,7 +10069,56 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Bear Form</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Growl</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Faerie Fire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -13524,8 +14211,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
       <WoWMacro>
         <PreCommand>None</PreCommand>
         <MacroCommands>!if (character in "No Rocket Mount") /cast [nomounted,noflyable] Armored Brown Bear; [nomounted,flyable] Ebon Gryphon
-!else /cast [nomounted,noflyable] Armored Brown Bear; [nomounted,flyable] X-53 Touring Rocket
-/dismount [mounted]</MacroCommands>
+!else /cast [nomounted,noflyable] Armored Brown Bear; [nomounted,flyable] X-53 Touring Rocket</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Mount</ColloquialName>
         <Combo>
@@ -13534,6 +14220,30 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
           <Key>
             <Key>1</Key>
             <Code>2</Code>
+          </Key>
+        </Combo>
+        <AllowCustomModifiers>
+          <LAlt>false</LAlt>
+          <RAlt>false</RAlt>
+          <LShift>false</LShift>
+          <RShift>false</RShift>
+          <LCtrl>false</LCtrl>
+          <RCtrl>false</RCtrl>
+        </AllowCustomModifiers>
+        <UseFTLModifiers>false</UseFTLModifiers>
+        <Description />
+      </WoWMacro>
+      <WoWMacro>
+        <PreCommand>None</PreCommand>
+        <MacroCommands>/dismount [mounted]</MacroCommands>
+        <TargetLastTarget>false</TargetLastTarget>
+        <ColloquialName>Dismount</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+2</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
           </Key>
         </Combo>
         <AllowCustomModifiers>
@@ -23450,7 +24160,7 @@ Wrath of Air Totem - Does not stack.</Description>
         <PreCommand>None</PreCommand>
         <MacroCommands>/click ErrorsOFF
 
-/cast Bear Form
+/cast [noform] Bear Form
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
@@ -34878,7 +35588,7 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
     <Description />
     <X>0</X>
     <Y>0</Y>
-    <Alpha>1</Alpha>
+    <Alpha>0.392156869</Alpha>
     <IconSize>0</IconSize>
     <IconBorder>0</IconBorder>
     <IconPadding>0</IconPadding>

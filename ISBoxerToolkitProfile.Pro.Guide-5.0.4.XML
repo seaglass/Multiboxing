@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/25/2012 1:31:42 AM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="9/27/2012 11:48:50 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -794,6 +794,205 @@
       <WindowLayoutString>Pandaria 1</WindowLayoutString>
     </WindowLayout>
   </CharacterSet>
+  <CharacterSet>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Pandaria 1 with Aeryth</Name>
+    <DisableFPSIndicator>false</DisableFPSIndicator>
+    <DisableForceWindowed>false</DisableForceWindowed>
+    <DisableVSync>true</DisableVSync>
+    <CursorClippingMode>Allow</CursorClippingMode>
+    <GUIToggleCombo>
+      <Combo>Ctrl+Shift+Alt+G</Combo>
+      <Modifiers>Ctrl Shift Alt</Modifiers>
+      <Key>
+        <Key>G</Key>
+        <Code>34</Code>
+      </Key>
+    </GUIToggleCombo>
+    <VideoFXFocusCombo>
+      <Combo>Alt+Mouse1</Combo>
+      <Modifiers>Alt</Modifiers>
+      <Key>
+        <Key>Mouse1</Key>
+        <Code>0</Code>
+      </Key>
+    </VideoFXFocusCombo>
+    <UseConsoleToggleCombo>false</UseConsoleToggleCombo>
+    <LaunchDelay>1</LaunchDelay>
+    <Slots>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Disneymax</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+1</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>1</Key>
+            <Code>2</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>1</unsignedInt>
+          <unsignedInt>2</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Frankbelson</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+2</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>2</Key>
+            <Code>3</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>RShift</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>3</unsignedInt>
+          <unsignedInt>4</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Threepwood</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+3</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>5</unsignedInt>
+          <unsignedInt>6</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Aeryth</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+4</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>4</Key>
+            <Code>5</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LAlt</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>7</unsignedInt>
+          <unsignedInt>8</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+      <Slot>
+        <ForegroundMaxFPS>60</ForegroundMaxFPS>
+        <BackgroundMaxFPS>30</BackgroundMaxFPS>
+        <CharacterString>Bigwhoop</CharacterString>
+        <SwitchToCombo>
+          <Combo>Ctrl+Alt+5</Combo>
+          <Modifiers>Ctrl Alt</Modifiers>
+          <Key>
+            <Key>5</Key>
+            <Code>6</Code>
+          </Key>
+        </SwitchToCombo>
+        <SwitchToComboIsGlobal>true</SwitchToComboIsGlobal>
+        <EffectType>OnFocus</EffectType>
+        <GenerateFocusTargetMacro>false</GenerateFocusTargetMacro>
+        <GenerateFollowMacro>false</GenerateFollowMacro>
+        <GenerateFollowEnablesJambaStrobing>false</GenerateFollowEnablesJambaStrobing>
+        <SwitchToKeyMapString>Control</SwitchToKeyMapString>
+        <SwitchToMappedKeyString>JambaMaster</SwitchToMappedKeyString>
+        <FTLModifiers>
+          <FTLModifierEnum>LShift</FTLModifierEnum>
+          <FTLModifierEnum>LCtrl</FTLModifierEnum>
+        </FTLModifiers>
+        <CPUCores>
+          <unsignedInt>9</unsignedInt>
+          <unsignedInt>10</unsignedInt>
+        </CPUCores>
+        <VariableKeystrokeInstances />
+      </Slot>
+    </Slots>
+    <LockForeground>false</LockForeground>
+    <LockWindow>true</LockWindow>
+    <DisableJambaTeamManagement>false</DisableJambaTeamManagement>
+    <RepeaterProfile>Default</RepeaterProfile>
+    <KeyMapStrings>
+      <string>General</string>
+      <string>Control</string>
+      <string>FTL DPS Keys</string>
+      <string>Max</string>
+      <string>Virtual Combat</string>
+      <string>Combat Hotkeys</string>
+    </KeyMapStrings>
+    <KeyMapWhiteOrBlackListType>Ignore</KeyMapWhiteOrBlackListType>
+    <KeyMapWhiteOrBlackList />
+    <ClickBarStrings>
+      <string>Broadcast</string>
+    </ClickBarStrings>
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+    <WoWMacroSets>
+      <WoWMacroSetLooseRef>
+        <WoWMacroSetString>Quick Setup 38</WoWMacroSetString>
+      </WoWMacroSetLooseRef>
+    </WoWMacroSets>
+    <LaunchCharacterSetStrings />
+    <WindowLayout>
+      <WindowLayoutString>Pandaria 1 with Aeryth</WindowLayoutString>
+    </WindowLayout>
+  </CharacterSet>
   <Character>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -1191,7 +1390,6 @@
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Priest Holy</string>
-      <string>Priest Shadow</string>
     </KeyMapStrings>
     <ClickBarStrings />
     <VirtualFileTargets>
@@ -1211,7 +1409,7 @@
           <KeyMapString>Virtual Combat</KeyMapString>
         </FromMappedKey>
         <ToMappedKey>
-          <KeyMapString>Priest Shadow</KeyMapString>
+          <KeyMapString>Priest Holy</KeyMapString>
         </ToMappedKey>
       </VirtualMappedKey>
     </VirtualMappedKeys>
@@ -1908,6 +2106,7 @@
     <KnownGame>WoW</KnownGame>
     <RelayGroupStrings>
       <string>Casters</string>
+      <string>Ground AOE</string>
     </RelayGroupStrings>
     <KeyMapStrings>
       <string>Warlock Destruction</string>
@@ -2206,6 +2405,111 @@
     </VirtualFileTargets>
     <WoWMacroSets />
     <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <ExecuteOnLoad>
+      <RoundRobin>false</RoundRobin>
+    </ExecuteOnLoad>
+    <Name>Disneymax-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>SCHILM</SubAccountName>
+    <ActualName>Disneymax</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings />
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Disneymax-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <WoWMacroSets />
+    <VirtualMappedKeys />
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <Name>Frankbelson-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>868495#5</SubAccountName>
+    <ActualName>Frankbelson</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings />
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Frankbelson-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <Name>Threepwood-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>868495#1</SubAccountName>
+    <ActualName>Threepwood</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings />
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Threepwood-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <Name>Aeryth-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>JLBURKE</SubAccountName>
+    <ActualName>Aeryth</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings />
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Aeryth-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
+    <VariableKeystrokeInstances />
+  </Character>
+  <Character>
+    <Name>Bigwhoop-Shu'halo</Name>
+    <AccountName>max@maxschilling.com</AccountName>
+    <SubAccountName>868495#6</SubAccountName>
+    <ActualName>Bigwhoop</ActualName>
+    <Game>World of Warcraft</Game>
+    <GameProfile>World of Warcraft Default Profile</GameProfile>
+    <VideoFeedViewersPermanent>false</VideoFeedViewersPermanent>
+    <KnownGame>WoW</KnownGame>
+    <RelayGroupStrings />
+    <KeyMapStrings />
+    <ClickBarStrings />
+    <VirtualFileTargets>
+      <VirtualFileTarget>
+        <Filename>Config-Bigwhoop-Shu'halo.WTF</Filename>
+        <VirtualFileString>Config.WTF</VirtualFileString>
+      </VirtualFileTarget>
+    </VirtualFileTargets>
     <VariableKeystrokeInstances />
   </Character>
   <VirtualFile>
@@ -2515,6 +2819,121 @@
       </Region>
       <Region>
         <CharacterSetSlot>4</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+    </Regions>
+    <SwapGroups>
+      <SwapGroup ResetRegion="-1" ActiveRegion="-1" PiPSqueakSlot="0" DeactivateSwapGroup="0" />
+    </SwapGroups>
+  </WindowLayout>
+  <WindowLayout>
+    <UserScreenSet>
+      <AllScreens>
+        <UserScreen>
+          <Bounds>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1600</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>2560</Width>
+            <Height>1560</Height>
+          </WorkingArea>
+          <Primary>true</Primary>
+          <DeviceName>\\.\DISPLAY1</DeviceName>
+        </UserScreen>
+        <UserScreen>
+          <Bounds>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </Bounds>
+          <WorkingArea>
+            <Left>-1920</Left>
+            <Top>0</Top>
+            <Width>1920</Width>
+            <Height>1200</Height>
+          </WorkingArea>
+          <Primary>false</Primary>
+          <DeviceName>\\.\DISPLAY2</DeviceName>
+        </UserScreen>
+      </AllScreens>
+      <Name>&lt;Current Screen Layout&gt;</Name>
+    </UserScreenSet>
+    <Name>Pandaria 1 with Aeryth</Name>
+    <Description>This Window Layout features stacked windows with no border, the size of the full screen, on \\.\DISPLAY1. Swapping disabled. Does not leave space for the Windows taskbar. This style is great in conjunction with Video FX to see parts of, or all of, the other windows.</Description>
+    <FocusFollowsMouse>false</FocusFollowsMouse>
+    <InstantSwap>true</InstantSwap>
+    <SwapMode>Never</SwapMode>
+    <FocusClickMode>ApplicationDefined</FocusClickMode>
+    <Regions>
+      <Region>
+        <CharacterSetSlot>1</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>2</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>3</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>4</CharacterSetSlot>
+        <SwapGroup>0</SwapGroup>
+        <Permanent>true</Permanent>
+        <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
+        <Rect>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Width>2560</Width>
+          <Height>1600</Height>
+        </Rect>
+        <BorderStyle>None</BorderStyle>
+      </Region>
+      <Region>
+        <CharacterSetSlot>5</CharacterSetSlot>
         <SwapGroup>0</SwapGroup>
         <Permanent>true</Permanent>
         <AlwaysOnTopMode>Normal</AlwaysOnTopMode>
@@ -8729,628 +9148,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
                   <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Starfire</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0.5</Stick>
-            <Stop>false</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Wrath</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -9365,7 +9163,47 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <ResetTimer>0</ResetTimer>
         <ResetType>Never</ResetType>
         <Mode>Default</Mode>
-        <Steps />
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Sunfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Moonfire</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
       </MappedKey>
       <MappedKey>
         <Name>AOE DPS Rotation</Name>
@@ -9478,7 +9316,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Faerie Fire</WoWMacroString>
+                  <WoWMacroString>Starfall</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -9498,7 +9336,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Solar Beam</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -9563,29 +9418,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Druid</WoWMacroSetString>
-                  <WoWMacroString>Forces of Nature</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-            </Actions>
-          </Step>
-          <Step>
-            <Stick>0</Stick>
-            <Stop>true</Stop>
-            <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Druid</WoWMacroSetString>
                   <WoWMacroString>Hurricane</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
@@ -9619,8 +9451,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <RCtrl>false</RCtrl>
                 </UseCustomModifiers>
                 <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Use Trinket</WoWMacroString>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Incarnation</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Celestial Alignment</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -9705,6 +9553,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 <WoWMacro>
                   <WoWMacroSetString>Druid</WoWMacroSetString>
                   <WoWMacroString>Moonkin Form</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Druid</WoWMacroSetString>
+                  <WoWMacroString>Faerie Fire</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -10162,102 +10026,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Arcane Blast</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Missiles</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Barrage</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -10389,23 +10157,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Living Bomb</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Arcane Missiles</WoWMacroString>
+                  <WoWMacroString>Arcane Barrage</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -10527,6 +10279,13 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Mirror Image</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -10543,6 +10302,13 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Presence of Mind</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -10556,9 +10322,16 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Mage</WoWMacroSetString>
-                  <WoWMacroString>Invisibility</WoWMacroString>
+                  <WoWMacroString>Arcane Barrage</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
+            </Actions>
+          </Step>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -10571,8 +10344,8 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <RCtrl>false</RCtrl>
                 </UseCustomModifiers>
                 <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Use Trinket</WoWMacroString>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Frost Bomb</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -10659,6 +10432,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions />
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Occasional</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>Default</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Mage</WoWMacroSetString>
+                  <WoWMacroString>Rune of Power</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -11751,22 +11558,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Mind Flay</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Priest</WoWMacroSetString>
-                  <WoWMacroString>Mind Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -11785,6 +11576,22 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stop>false</Stop>
             <Stump>false</Stump>
             <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Shadow Word: Pain</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
                 <RoundRobin>false</RoundRobin>
                 <Target>self</Target>
@@ -11817,38 +11624,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <WoWMacroString>Devouring Plague</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Priest</WoWMacroSetString>
-                  <WoWMacroString>Mind Blast</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Priest</WoWMacroSetString>
-                  <WoWMacroString>Shadow Word: Pain</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
             </Actions>
           </Step>
         </Steps>
@@ -11866,7 +11641,24 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Priest</WoWMacroSetString>
+                  <WoWMacroString>Mind Sear</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -12033,7 +11825,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Priest</WoWMacroSetString>
-                  <WoWMacroString>Mind Blast</WoWMacroString>
+                  <WoWMacroString>Shadowfiend</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -13333,7 +13125,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Warlock</WoWMacroSetString>
-                  <WoWMacroString>Fire and Brimstone</WoWMacroString>
+                  <WoWMacroString>Rain of Fire</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -14156,6 +13948,14 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         <TargetLastTarget>false</TargetLastTarget>
         <Name>PreAttack</Name>
         <ColloquialName>UseTrinket</ColloquialName>
+        <Combo>
+          <Combo>Ctrl+Shift+3</Combo>
+          <Modifiers>Ctrl Shift</Modifiers>
+          <Key>
+            <Key>3</Key>
+            <Code>4</Code>
+          </Key>
+        </Combo>
         <AllowCustomModifiers>
           <LAlt>false</LAlt>
           <RAlt>false</RAlt>
@@ -24042,7 +23842,11 @@ Wrath of Air Totem - Does not stack.</Description>
     <WoWMacros>
       <WoWMacro>
         <PreCommand>None</PreCommand>
-        <MacroCommands />
+        <MacroCommands>/click ErrorsOFF
+
+/cast [noform] Aquatic Form
+
+/click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
         <ColloquialName>Aquatic Form</ColloquialName>
         <Combo>
@@ -30863,7 +30667,7 @@ Wrath of Air Totem - Does not stack.</Description>
 
 /click ErrorsOFF
 
-/cast Devoiring Plague
+/cast Devouring Plague
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>
@@ -32473,7 +32277,7 @@ Wrath of Air Totem - Does not stack.</Description>
         <PreCommand>None</PreCommand>
         <MacroCommands>/click ErrorsOFF
 
-/cast Shadowform
+/cast [noform] Shadowform
 
 /click ErrorsON</MacroCommands>
         <TargetLastTarget>false</TargetLastTarget>

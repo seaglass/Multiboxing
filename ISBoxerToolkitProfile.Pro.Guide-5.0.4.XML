@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="10/23/2012 9:11:14 AM">
+<ISBoxerToolkitProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="40" BuildDate="10/29/2012 12:53:37 PM">
   <CharacterSet>
     <ExecuteOnLoad>
       <RoundRobin>false</RoundRobin>
@@ -11966,7 +11966,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Hammer of the Righteous</WoWMacroString>
+                  <WoWMacroString>Crusader Strike</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -11983,6 +11983,40 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
                   <WoWMacroString>Hammer of the Righteous</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
+          </Step>
+        </Steps>
+      </MappedKey>
+      <MappedKey>
+        <Name>DPS Rotation Low Health</Name>
+        <Description />
+        <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
+        <ManualLoad>false</ManualLoad>
+        <ResetTimer>0.1</ResetTimer>
+        <ResetType>Never</ResetType>
+        <Mode>OnRelease</Mode>
+        <Steps>
+          <Step>
+            <Stick>0</Stick>
+            <Stop>false</Stop>
+            <Stump>false</Stump>
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Judgement</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -11999,22 +12033,6 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
                   <WoWMacroString>Shield of the Righteous</WoWMacroString>
-                </WoWMacro>
-              </MappedKeyAction>
-              <MappedKeyAction xsi:type="WoWMacroRefAction">
-                <RoundRobin>false</RoundRobin>
-                <Target>self</Target>
-                <UseCustomModifiers>
-                  <LAlt>false</LAlt>
-                  <RAlt>false</RAlt>
-                  <LShift>false</LShift>
-                  <RShift>false</RShift>
-                  <LCtrl>false</LCtrl>
-                  <RCtrl>false</RCtrl>
-                </UseCustomModifiers>
-                <WoWMacro>
-                  <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Hammer of the Righteous</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -12118,7 +12136,88 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions />
+            <Actions>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Holy Wrath</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>General</WoWMacroSetString>
+                  <WoWMacroString>Use Trinket</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Light's Hammer</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Consecration</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Hammer of the Righteous</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+            </Actions>
           </Step>
         </Steps>
       </MappedKey>
@@ -12217,7 +12316,7 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
-                  <WoWMacroString>Consecration</WoWMacroString>
+                  <WoWMacroString>Hammer of the Righteous</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
               <MappedKeyAction xsi:type="WoWMacroRefAction">
@@ -12232,8 +12331,8 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                   <RCtrl>false</RCtrl>
                 </UseCustomModifiers>
                 <WoWMacro>
-                  <WoWMacroSetString>General</WoWMacroSetString>
-                  <WoWMacroString>Use Trinket</WoWMacroString>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Shield of the Righteous</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -12317,7 +12416,39 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
                 </UseCustomModifiers>
                 <WoWMacro>
                   <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Divine Protection</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
                   <WoWMacroString>Avenger's Shield</WoWMacroString>
+                </WoWMacro>
+              </MappedKeyAction>
+              <MappedKeyAction xsi:type="WoWMacroRefAction">
+                <RoundRobin>false</RoundRobin>
+                <Target>self</Target>
+                <UseCustomModifiers>
+                  <LAlt>false</LAlt>
+                  <RAlt>false</RAlt>
+                  <LShift>false</LShift>
+                  <RShift>false</RShift>
+                  <LCtrl>false</LCtrl>
+                  <RCtrl>false</RCtrl>
+                </UseCustomModifiers>
+                <WoWMacro>
+                  <WoWMacroSetString>Paladin</WoWMacroSetString>
+                  <WoWMacroString>Sacred Shield</WoWMacroString>
                 </WoWMacro>
               </MappedKeyAction>
             </Actions>
@@ -12325,29 +12456,19 @@ If you need more keys like this, the Many New Mapped Keys option from the right-
         </Steps>
       </MappedKey>
       <MappedKey>
-        <Name>DPS Rotation Low Health</Name>
+        <Name>DPS Occasional</Name>
         <Description />
         <SendNextClickBlockLocal>false</SendNextClickBlockLocal>
         <ManualLoad>false</ManualLoad>
-        <ResetTimer>0.1</ResetTimer>
+        <ResetTimer>0</ResetTimer>
         <ResetType>Never</ResetType>
-        <Mode>OnRelease</Mode>
+        <Mode>Default</Mode>
         <Steps>
           <Step>
             <Stick>0</Stick>
             <Stop>false</Stop>
             <Stump>false</Stump>
-            <Actions>
-              <MappedKeyAction xsi:type="PopupTextAction">
-                <Target>self</Target>
-                <Text>Low Health</Text>
-                <DurationMS>500</DurationMS>
-                <FadeDurationMS>500</FadeDurationMS>
-                <Red>255</Red>
-                <Green>255</Green>
-                <Blue>255</Blue>
-              </MappedKeyAction>
-            </Actions>
+            <Actions />
           </Step>
         </Steps>
       </MappedKey>
@@ -37485,8 +37606,8 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
       <Green>255</Green>
       <Blue>255</Blue>
     </CellBorder_Color>
-    <Rows>1</Rows>
-    <Columns>3</Columns>
+    <Rows>2</Rows>
+    <Columns>2</Columns>
     <Buttons>
       <Button>
         <Enabled>true</Enabled>
@@ -37582,6 +37703,27 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
             </Action>
           </ClickAction>
         </ClickActions>
+        <MouseOverAction>
+          <LeftRight>Left</LeftRight>
+          <Modifiers>None</Modifiers>
+          <Action>
+            <RoundRobin>false</RoundRobin>
+          </Action>
+        </MouseOverAction>
+        <ClickThrough>false</ClickThrough>
+        <Tooltip />
+        <Text />
+      </Button>
+      <Button>
+        <Enabled>false</Enabled>
+        <Name>Button 2,2</Name>
+        <BackgroundColor>
+          <Red>0</Red>
+          <Green>0</Green>
+          <Blue>0</Blue>
+          <Alpha>0</Alpha>
+        </BackgroundColor>
+        <ClickActions />
         <MouseOverAction>
           <LeftRight>Left</LeftRight>
           <Modifiers>None</Modifiers>
@@ -37799,5 +37941,32 @@ To move this and other Click Bars, bring up the in-game ISBoxer control panel by
         </TextStyle>
       </Button>
     </Buttons>
+  </ClickBar>
+  <ClickBar>
+    <Name>Boss Health Bar</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <Alpha>1</Alpha>
+    <IconSize>0</IconSize>
+    <IconBorder>0</IconBorder>
+    <IconPadding>0</IconPadding>
+    <RowHeight>32</RowHeight>
+    <ColumnWidth>32</ColumnWidth>
+    <BackgroundColor>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+      <Alpha>255</Alpha>
+    </BackgroundColor>
+    <Border>0</Border>
+    <CellBorder>1</CellBorder>
+    <CellBorder_Color>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </CellBorder_Color>
+    <Rows>0</Rows>
+    <Columns>0</Columns>
+    <Buttons />
   </ClickBar>
 </ISBoxerToolkitProfile>
